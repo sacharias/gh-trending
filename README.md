@@ -7,7 +7,7 @@ Queries 3B+ GitHub events via [ClickHouse](https://gh-api.clickhouse.tech/) to c
 - **Velocity** — stars per day in a recent window
 - **% Change** — change in starring rate vs the previous window (finds breakout repos before they blow up)
 
-Enriches results with real star counts, descriptions, and languages from the GitHub API.
+Pulls in star counts, descriptions, and languages from the GitHub API.
 
 ## Install
 
@@ -53,16 +53,16 @@ FASTEST RISING (% change in starring rate)
     [TypeScript] An established repo gaining massive momentum
 ```
 
-**Breakout repos** (near-zero previous activity) appear first with `+∞`, followed by established repos ranked by percentage growth. ANSI colors are used when output is a TTY and stripped when piped.
+Breakout repos (near-zero previous activity) appear first with `+∞`, followed by established repos ranked by percentage growth. Colors show up in terminals and get stripped when piped.
 
 ## How it works
 
 1. A single SQL query to ClickHouse compares starring activity in two adjacent time windows
-2. Results are enriched via GitHub's GraphQL API (`gh` CLI) or REST API (falls back to `curl`)
+2. Star counts, descriptions, and languages get pulled from GitHub's GraphQL API (`gh` CLI) or REST API (falls back to `curl`)
 3. Two ranked tables are printed: fastest rising (% change) and highest velocity (stars/day)
 
 ## Requirements
 
 - Python 3.9+
-- `curl` (used for ClickHouse queries)
-- `gh` CLI (optional, for authenticated GitHub API access — faster and higher rate limits)
+- `curl` (for ClickHouse queries)
+- `gh` CLI (optional — authenticated GitHub API access with higher rate limits)
