@@ -216,7 +216,7 @@ def format_table(rows, sort_key, n, window_days, use_color, term_width):
     WHITE = "\033[97m" if use_color else ""
     RESET = "\033[0m" if use_color else ""
 
-    w = term_width or 80
+    w = min(term_width or 80, 120)
     sep = "\u2500" * w
     lines = []
     lines.append(f"\n{BOLD}{title}{RESET}")
@@ -226,7 +226,7 @@ def format_table(rows, sort_key, n, window_days, use_color, term_width):
     lines.append(f"{DIM}{' ' * (w - len(stats_hdr))}{stats_hdr}{RESET}")
     lines.append(sep)
 
-    stats_width = 37  # fixed width of the stats columns
+    stats_width = 39  # fixed width of the stats columns (including leading 2-space gap)
     breakout_boundary_shown = False
 
     for i, r in enumerate(rows, 1):
