@@ -12,13 +12,13 @@ Enriches results with real star counts, descriptions, and languages from the Git
 ## Install
 
 ```
-uv tool install gh-trending
+curl -fsSL https://raw.githubusercontent.com/sacharias/gh-trending/main/install.sh | sh
 ```
 
-Or run directly:
+Or manually with uv:
 
 ```
-uv run trending.py
+uv tool install gh-trending@git+https://github.com/sacharias/gh-trending
 ```
 
 ## Usage
