@@ -20,9 +20,4 @@ jobs:
       - name: Run gh-trending
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          {
-            echo '```'
-            gh-trending
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+        run: gh-trending --md >> "$GITHUB_STEP_SUMMARY"

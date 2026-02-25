@@ -282,6 +282,66 @@ def format_table(rows, sort_key, n, window_days, use_color, term_width):
     return "\n".join(lines)
 
 
+def format_markdown_table(rows, sort_key, n, window_days):
+    if sort_key == "acceleration":
+        rows = pick_rising(rows, n)
+        title = "FASTEST RISING (% change in starring rate)"
+    else:
+        rows = sorted(rows, key=lambda r: r["velocity"], reverse=True)[:n]
+        title = "HIGHEST VELOCITY (most stars/day)"
+
+    if not rows:
+        return ""
+
+    lines = []
+    lines.append(f"\n### {title}\n")
+    lines.append(f"| # | Repo | ⭐ | {window_days}d | Prev | Vel/d | Chg% | Description |")
+    lines.append("|--:|------|---:|---:|---:|---:|---:|-------------|")
+
+    breakout_boundary_shown = False
+
+    for i, r in enumerate(rows, 1):
+        if (sort_key == "acceleration" and not breakout_boundary_shown
+                and r["stars_prev"] >= BREAKOUT_THRESHOLD
+                and any(p["stars_prev"] < BREAKOUT_THRESHOLD for p in rows[:i - 1])):
+            breakout_boundary_shown = True
+            lines.append("| | **— established repos —** | | | | | | |")
+
+        name = r["repo_name"]
+        url = f"https://github.com/{name}"
+        is_breakout = r["stars_prev"] < BREAKOUT_THRESHOLD
+
+        if is_breakout:
+            pct = "+∞"
+        elif r["pct_change"] > 0:
+            pct = f"+{r['pct_change']}%"
+        elif r["pct_change"] < 0:
+            pct = f"{r['pct_change']}%"
+        else:
+            pct = "0%"
+
+        lang = r.get("language", "")
+        desc = r.get("description", "").strip().replace("|", "\\|")
+
+        if lang and desc:
+            meta = f"\\[{lang}\\] {desc}"
+        elif lang:
+            meta = f"\\[{lang}\\]"
+        else:
+            meta = desc
+
+        if len(meta) > 80:
+            meta = meta[:79] + "…"
+
+        lines.append(
+            f"| {i} | [{name}]({url}) | {compact_num(r['total_stars'])}"
+            f" | {r['stars_recent']} | {r['stars_prev']} | {r['velocity']}"
+            f" | {pct} | {meta} |"
+        )
+
+    return "\n".join(lines)
+
+
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 
@@ -299,6 +359,8 @@ def main():
                         help="Minimum stars in recent window (default: 5)")
     parser.add_argument("--json", action="store_true", dest="json_out",
                         help="Output raw JSON")
+    parser.add_argument("--md", action="store_true", dest="md_out",
+                        help="Output GitHub-flavored Markdown table")
     args = parser.parse_args()
 
     # Query ClickHouse for star events
@@ -354,6 +416,21 @@ def main():
         else:
             out = rows[:args.top * 2]
         json.dump(out, sys.stdout, indent=2)
+        print()
+        return
+
+    if args.md_out:
+        header = f"## GitHub Trending Repos ({date.today().strftime('%b %d, %Y')})"
+        sub = f"Repos with {args.stars}+ total stars, {args.window}-day window"
+        print(header)
+        print(sub)
+
+        if args.sort in ("both", "acceleration"):
+            print(format_markdown_table(rows, "acceleration", args.top, args.window))
+
+        if args.sort in ("both", "velocity"):
+            print(format_markdown_table(rows, "velocity", args.top, args.window))
+
         print()
         return
 
