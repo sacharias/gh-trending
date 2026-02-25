@@ -17,7 +17,7 @@ BREAKOUT_THRESHOLD = 3  # prev stars below this = "breakout" repo
 # ── ClickHouse query ─────────────────────────────────────────────────────────
 
 
-def build_query(window_days, min_stars, min_recent):
+def build_query(window_days, min_stars, min_recent, limit):
     return f"""\
 SELECT
     repo_name,
@@ -34,7 +34,7 @@ WHERE event_type = 'WatchEvent'
 GROUP BY repo_name
 HAVING total_stars >= {min_stars} AND stars_recent >= {min_recent}
 ORDER BY velocity DESC
-LIMIT 200
+LIMIT {limit}
 FORMAT JSON"""
 
 
@@ -297,12 +297,14 @@ def main():
                         help="Number of repos per ranking (default: 25)")
     parser.add_argument("--min-recent", type=int, default=5, metavar="N",
                         help="Minimum stars in recent window (default: 5)")
+    parser.add_argument("--limit", type=int, default=500, metavar="N",
+                        help="Max repos to fetch from ClickHouse (default: 500)")
     parser.add_argument("--json", action="store_true", dest="json_out",
                         help="Output raw JSON")
     args = parser.parse_args()
 
     # Query ClickHouse for star events
-    query = build_query(args.window, args.stars, args.min_recent)
+    query = build_query(args.window, args.stars, args.min_recent, args.limit)
     data = query_clickhouse(query)
 
     rows = data.get("data", [])
