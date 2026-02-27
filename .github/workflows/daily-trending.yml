@@ -8,6 +8,8 @@ on:
 jobs:
   trending:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -20,4 +22,31 @@ jobs:
       - name: Run gh-trending
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh-trending --md >> "$GITHUB_STEP_SUMMARY"
+        run: gh-trending --md > /tmp/trending.md
+
+      - name: Update README
+        run: |
+          python3 - <<'EOF'
+          import re
+          with open('/tmp/trending.md') as f:
+              trending = f.read().strip()
+          with open('README.md') as f:
+              content = f.read()
+          new_section = f'<!-- TRENDING_START -->\n{trending}\n<!-- TRENDING_END -->'
+          content = re.sub(
+              r'<!-- TRENDING_START -->.*?<!-- TRENDING_END -->',
+              new_section,
+              content,
+              flags=re.DOTALL,
+          )
+          with open('README.md', 'w') as f:
+              f.write(content)
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update trending repos [skip ci]"
+          git push

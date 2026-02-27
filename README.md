@@ -1,3 +1,7 @@
+<!-- TRENDING_START -->
+<!-- Automatically updated daily by GitHub Actions -->
+<!-- TRENDING_END -->
+
 # gh-trending
 
 Find GitHub repos with the most momentum right now.
