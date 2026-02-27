@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
 
@@ -19,10 +21,12 @@ jobs:
       - name: Install gh-trending
         run: uv tool install .
 
-      - name: Run gh-trending
+      - name: Generate trending data
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh-trending --md > /tmp/trending.md
+        run: |
+          gh-trending --md > /tmp/trending.md
+          gh-trending --json > docs/data.json
 
       - name: Update README
         run: |
@@ -47,6 +51,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md docs/data.json
           git diff --cached --quiet || git commit -m "Update trending repos [skip ci]"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

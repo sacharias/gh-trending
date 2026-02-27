@@ -330,8 +330,7 @@ def format_markdown_table(rows, sort_key, n, window_days):
         else:
             meta = desc
 
-        if len(meta) > 80:
-            meta = meta[:79] + "…"
+        # no truncation – let the full description through
 
         lines.append(
             f"| {i} | [{name}]({url}) | {compact_num(r['total_stars'])}"
@@ -409,13 +408,18 @@ def main():
             r.setdefault("language", "")
 
     if args.json_out:
-        if args.sort == "acceleration":
-            out = sorted(rows, key=lambda r: r["pct_change"], reverse=True)[:args.top]
-        elif args.sort == "velocity":
-            out = sorted(rows, key=lambda r: r["velocity"], reverse=True)[:args.top]
-        else:
-            out = rows[:args.top * 2]
-        json.dump(out, sys.stdout, indent=2)
+        result = {
+            "date": date.today().strftime("%b %d, %Y"),
+            "window": args.window,
+            "min_stars": args.stars,
+        }
+        if args.sort in ("both", "acceleration"):
+            result["fastest_rising"] = pick_rising(rows, args.top)
+        if args.sort in ("both", "velocity"):
+            result["highest_velocity"] = sorted(
+                rows, key=lambda r: r["velocity"], reverse=True
+            )[:args.top]
+        json.dump(result, sys.stdout, indent=2)
         print()
         return
 
