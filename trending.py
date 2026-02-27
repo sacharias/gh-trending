@@ -234,7 +234,8 @@ def format_table(rows, sort_key, n, window_days, use_color, term_width):
                 and r["stars_prev"] >= BREAKOUT_THRESHOLD
                 and any(p["stars_prev"] < BREAKOUT_THRESHOLD for p in rows[:i - 1])):
             breakout_boundary_shown = True
-            lines.append(f"{DIM}{'  \u2504 established repos ':─<{w}}{RESET}")
+            sep_text = "  \u2504 established repos "
+            lines.append(f"{DIM}{sep_text:\u2500<{w}}{RESET}")
 
         name = r["repo_name"]
         is_breakout = r["stars_prev"] < BREAKOUT_THRESHOLD
