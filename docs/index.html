@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Trending</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #d29922;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header { margin-bottom: 2rem; }
+  header h1 { font-size: 1.5rem; font-weight: 600; }
+  header p { color: var(--muted); font-size: 0.875rem; margin-top: 0.25rem; }
+  .section { margin-bottom: 2.5rem; }
+  .section h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+  th {
+    text-align: left;
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  th.num { text-align: right; }
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.rank { text-align: right; color: var(--muted); font-size: 0.75rem; width: 2rem; }
+  tr:hover { background: var(--surface); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .repo-name { font-weight: 600; white-space: nowrap; }
+  .desc {
+    color: var(--muted);
+    font-size: 0.8125rem;
+    margin-top: 0.125rem;
+  }
+  .lang {
+    display: inline-block;
+    color: var(--text);
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+    opacity: 0.7;
+  }
+  .pct-pos { color: var(--green); }
+  .pct-neg { color: var(--red); }
+  .pct-inf { color: var(--yellow); }
+  .separator td {
+    padding: 0.25rem 0.75rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-style: italic;
+    border-bottom: 1px solid var(--border);
+  }
+  .separator:hover { background: transparent; }
+  #loading { color: var(--muted); padding: 2rem 0; text-align: center; }
+  @media (max-width: 768px) {
+    body { padding: 1rem 0.5rem; }
+    .hide-mobile { display: none; }
+    table { font-size: 0.8125rem; }
+    td, th { padding: 0.375rem 0.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>GitHub Trending</h1>
+  <p id="subtitle">Loading...</p>
+</header>
+
+<div id="content"><p id="loading">Fetching trending data...</p></div>
+
+<script>
+const BREAKOUT_THRESHOLD = 3;
+
+function compact(n) {
+  if (n < 1000) return String(n);
+  if (n < 100000) return (n / 1000).toFixed(1) + 'k';
+  if (n < 1000000) return Math.floor(n / 1000) + 'k';
+  return (n / 1000000).toFixed(1) + 'M';
+}
+
+function pctCell(r) {
+  const isBreakout = r.stars_prev < BREAKOUT_THRESHOLD;
+  if (isBreakout) return '<td class="num pct-inf">+\u221e</td>';
+  const p = r.pct_change;
+  if (p > 0) return `<td class="num pct-pos">+${p}%</td>`;
+  if (p < 0) return `<td class="num pct-neg">${p}%</td>`;
+  return '<td class="num">0%</td>';
+}
+
+function buildTable(rows, key) {
+  let breakoutDone = false;
+  const isRising = key === 'fastest_rising';
+  let html = `<table>
+    <tr>
+      <th class="num">#</th>
+      <th>Repository</th>
+      <th class="num">\u2b50</th>
+      <th class="num hide-mobile">Recent</th>
+      <th class="num hide-mobile">Prev</th>
+      <th class="num">Vel/d</th>
+      <th class="num">Chg%</th>
+    </tr>`;
+
+  rows.forEach((r, i) => {
+    if (isRising && !breakoutDone && r.stars_prev >= BREAKOUT_THRESHOLD) {
+      const hasBreakouts = rows.slice(0, i).some(p => p.stars_prev < BREAKOUT_THRESHOLD);
+      if (hasBreakouts) {
+        breakoutDone = true;
+        html += '<tr class="separator"><td colspan="7">\u2504 established repos</td></tr>';
+      }
+    }
+
+    const desc = r.description || '';
+    const lang = r.language || '';
+    let meta = '';
+    if (lang) meta += `<span class="lang">[${esc(lang)}]</span> `;
+    if (desc) meta += esc(desc);
+
+    html += `<tr>
+      <td class="rank">${i + 1}</td>
+      <td>
+        <a class="repo-name" href="https://github.com/${esc(r.repo_name)}">${esc(r.repo_name)}</a>
+        ${meta ? `<div class="desc">${meta}</div>` : ''}
+      </td>
+      <td class="num">${compact(r.total_stars)}</td>
+      <td class="num hide-mobile">${r.stars_recent}</td>
+      <td class="num hide-mobile">${r.stars_prev}</td>
+      <td class="num">${r.velocity}</td>
+      ${pctCell(r)}
+    </tr>`;
+  });
+
+  html += '</table>';
+  return html;
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+async function load() {
+  try {
+    const res = await fetch('data.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    document.getElementById('subtitle').textContent =
+      `${data.date} \u2022 ${data.window}-day window \u2022 ${data.min_stars}+ stars`;
+
+    let html = '';
+
+    if (data.fastest_rising) {
+      html += `<div class="section">
+        <h2>Fastest Rising</h2>
+        ${buildTable(data.fastest_rising, 'fastest_rising')}
+      </div>`;
+    }
+
+    if (data.highest_velocity) {
+      html += `<div class="section">
+        <h2>Highest Velocity</h2>
+        ${buildTable(data.highest_velocity, 'highest_velocity')}
+      </div>`;
+    }
+
+    document.getElementById('content').innerHTML = html;
+  } catch (e) {
+    document.getElementById('content').innerHTML =
+      `<p style="color:var(--red)">Failed to load data: ${esc(e.message)}</p>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>
