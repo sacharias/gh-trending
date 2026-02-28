@@ -195,9 +195,22 @@
     letter-spacing: -0.01em;
   }
 
+  .repo-link:visited { color: var(--text-secondary); }
+
   .repo-link:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
+  }
+
+  .repo-link.visited {
+    color: var(--text-muted);
+  }
+
+  .repo-link.visited::after {
+    content: ' \2713';
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+    font-weight: 400;
   }
 
   .repo-owner {
@@ -445,6 +458,18 @@
 
 <script>
 const BREAKOUT_THRESHOLD = 3;
+const VISITED_KEY = 'gh-trending-visited';
+
+function getVisited() {
+  try { return new Set(JSON.parse(localStorage.getItem(VISITED_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+
+function markVisited(repo) {
+  const visited = getVisited();
+  visited.add(repo);
+  localStorage.setItem(VISITED_KEY, JSON.stringify([...visited]));
+}
 
 function compact(n) {
   if (n < 1000) return String(n);
@@ -464,7 +489,8 @@ function pctHtml(r) {
 
 function repoLinkHtml(r) {
   const parts = r.repo_name.split('/');
-  return `<a class="repo-link" href="https://github.com/${esc(r.repo_name)}" target="_blank" rel="noopener"><span class="repo-owner">${esc(parts[0])}/</span>${esc(parts[1])}</a>`;
+  const cls = getVisited().has(r.repo_name) ? 'repo-link visited' : 'repo-link';
+  return `<a class="${cls}" data-repo="${esc(r.repo_name)}" href="https://github.com/${esc(r.repo_name)}" target="_blank" rel="noopener"><span class="repo-owner">${esc(parts[0])}/</span>${esc(parts[1])}</a>`;
 }
 
 function buildSection(rows, key) {
@@ -579,6 +605,20 @@ async function load() {
 
     document.getElementById('content').innerHTML = html;
     document.getElementById('footer').style.display = 'flex';
+
+    // Mark repos as visited when clicked
+    document.getElementById('content').addEventListener('click', (e) => {
+      const link = e.target.closest('a.repo-link');
+      if (!link) return;
+      const repo = link.dataset.repo;
+      if (repo) {
+        markVisited(repo);
+        // Update all links to this repo (appears in both tables)
+        document.querySelectorAll(`a.repo-link[data-repo="${repo}"]`).forEach(el => {
+          el.classList.add('visited');
+        });
+      }
+    });
   } catch (e) {
     document.getElementById('content').innerHTML =
       `<div style="text-align:center;padding:4rem 0;color:var(--text-muted)">
