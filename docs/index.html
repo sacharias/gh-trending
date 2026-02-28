@@ -4,110 +4,349 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GitHub Trending</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="GH Trending">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
   :root {
-    --bg: #0d1117;
-    --surface: #161b22;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --accent: #58a6ff;
-    --green: #3fb950;
-    --red: #f85149;
-    --yellow: #d29922;
+    --bg: #ffffff;
+    --card: #fafafa;
+    --border: #e5e5e5;
+    --text: #0a0a0a;
+    --text-secondary: #525252;
+    --text-muted: #a3a3a3;
+    --hover: #f5f5f5;
+    --ring: #d4d4d4;
+    --radius: 8px;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.5;
-    padding: 2rem 1rem;
-    max-width: 1200px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .container {
+    max-width: 1080px;
     margin: 0 auto;
+    padding: 3rem 1.5rem;
   }
-  header { margin-bottom: 2rem; }
-  header h1 { font-size: 1.5rem; font-weight: 600; }
-  header p { color: var(--muted); font-size: 0.875rem; margin-top: 0.25rem; }
-  .section { margin-bottom: 2.5rem; }
-  .section h2 {
-    font-size: 1rem;
+
+  /* Header */
+  header {
+    margin-bottom: 2.5rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
     font-weight: 600;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
+    letter-spacing: -0.025em;
+    color: var(--text);
   }
+
+  .subtitle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.375rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    background: var(--card);
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-header h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text);
+  }
+
+  .section-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  /* Card */
+  .card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  /* Table */
   table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.875rem;
-  }
-  th {
-    text-align: left;
-    color: var(--muted);
-    font-weight: 500;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-  }
-  th.num { text-align: right; }
-  td {
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid var(--border);
-    vertical-align: top;
-  }
-  td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
-  td.rank { text-align: right; color: var(--muted); font-size: 0.75rem; width: 2rem; }
-  tr:hover { background: var(--surface); }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .repo-name { font-weight: 600; white-space: nowrap; }
-  .desc {
-    color: var(--muted);
     font-size: 0.8125rem;
+  }
+
+  thead th {
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    padding: 0.625rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--card);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+
+  thead th.num { text-align: right; }
+
+  tbody tr {
+    transition: background 0.1s ease;
+  }
+
+  tbody tr:hover {
+    background: var(--hover);
+  }
+
+  tbody td {
+    padding: 0.625rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  td.num {
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8125rem;
+  }
+
+  td.rank {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    width: 2.5rem;
+    font-weight: 500;
+  }
+
+  /* Repo cell */
+  .repo-link {
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.8125rem;
+    letter-spacing: -0.01em;
+  }
+
+  .repo-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .repo-owner {
+    font-weight: 400;
+    color: var(--text-muted);
+  }
+
+  .repo-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
     margin-top: 0.125rem;
   }
-  .lang {
-    display: inline-block;
-    color: var(--text);
-    font-size: 0.75rem;
-    margin-right: 0.25rem;
-    opacity: 0.7;
+
+  .lang-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    padding: 0 0.375rem;
+    height: 1.25rem;
+    border-radius: 4px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    flex-shrink: 0;
   }
-  .pct-pos { color: var(--green); }
-  .pct-neg { color: var(--red); }
-  .pct-inf { color: var(--yellow); }
-  .separator td {
-    padding: 0.25rem 0.75rem;
-    color: var(--muted);
+
+  .desc {
     font-size: 0.75rem;
-    font-style: italic;
+    color: var(--text-muted);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  /* Percentage styling */
+  .pct {
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .pct-up {
+    color: var(--text);
+  }
+
+  .pct-down {
+    color: var(--text-muted);
+  }
+
+  .pct-inf {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .pct-arrow {
+    font-size: 0.625rem;
+    margin-right: 0.125rem;
+  }
+
+  /* Velocity */
+  .vel {
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .stars-total {
+    color: var(--text-secondary);
+  }
+
+  /* Separator */
+  .separator td {
+    padding: 0.375rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: var(--card);
     border-bottom: 1px solid var(--border);
   }
-  .separator:hover { background: transparent; }
-  #loading { color: var(--muted); padding: 2rem 0; text-align: center; }
+
+  .separator:hover { background: var(--card) !important; }
+
+  /* Footer */
+  .footer {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* Loading */
+  #loading {
+    text-align: center;
+    padding: 4rem 0;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--border);
+    border-top-color: var(--text-secondary);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Responsive */
   @media (max-width: 768px) {
-    body { padding: 1rem 0.5rem; }
+    .container { padding: 1.5rem 1rem; }
+    header h1 { font-size: 1.25rem; }
     .hide-mobile { display: none; }
     table { font-size: 0.8125rem; }
-    td, th { padding: 0.375rem 0.5rem; }
+    thead th, tbody td { padding: 0.5rem 0.625rem; }
+    td.rank { width: 2rem; }
+    .desc { display: none; }
+    .footer { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+  }
+
+  @media (max-width: 480px) {
+    .container { padding: 1rem 0.75rem; }
+    thead th, tbody td { padding: 0.5rem; }
   }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>GitHub Trending</h1>
-  <p id="subtitle">Loading...</p>
-</header>
+<div class="container">
+  <header>
+    <h1>GitHub Trending</h1>
+    <div class="subtitle" id="subtitle">
+      <span class="spinner"></span> Loading...
+    </div>
+  </header>
 
-<div id="content"><p id="loading">Fetching trending data...</p></div>
+  <div id="content">
+    <div id="loading">
+      <span class="spinner"></span> Fetching trending data...
+    </div>
+  </div>
+
+  <div class="footer" id="footer" style="display:none">
+    <span>Data sourced from GitHub event streams via ClickHouse</span>
+    <a href="https://github.com/sacharias/gh-stars">Source</a>
+  </div>
+</div>
 
 <script>
 const BREAKOUT_THRESHOLD = 3;
@@ -121,57 +360,68 @@ function compact(n) {
 
 function pctCell(r) {
   const isBreakout = r.stars_prev < BREAKOUT_THRESHOLD;
-  if (isBreakout) return '<td class="num pct-inf">+\u221e</td>';
+  if (isBreakout) {
+    return '<td class="num"><span class="pct pct-inf">NEW</span></td>';
+  }
   const p = r.pct_change;
-  if (p > 0) return `<td class="num pct-pos">+${p}%</td>`;
-  if (p < 0) return `<td class="num pct-neg">${p}%</td>`;
-  return '<td class="num">0%</td>';
+  if (p > 0) {
+    return `<td class="num"><span class="pct pct-up"><span class="pct-arrow">\u25B2</span>${p > 999 ? compact(p) : p}%</span></td>`;
+  }
+  if (p < 0) {
+    return `<td class="num"><span class="pct pct-down"><span class="pct-arrow">\u25BC</span>${Math.abs(p)}%</span></td>`;
+  }
+  return '<td class="num"><span class="pct">\u2014</span></td>';
 }
 
 function buildTable(rows, key) {
   let breakoutDone = false;
   const isRising = key === 'fastest_rising';
-  let html = `<table>
-    <tr>
+
+  let html = `<div class="card"><table>
+    <thead><tr>
       <th class="num">#</th>
       <th>Repository</th>
-      <th class="num">\u2b50</th>
+      <th class="num">Stars</th>
       <th class="num hide-mobile">Recent</th>
       <th class="num hide-mobile">Prev</th>
       <th class="num">Vel/d</th>
-      <th class="num">Chg%</th>
-    </tr>`;
+      <th class="num">Change</th>
+    </tr></thead><tbody>`;
 
   rows.forEach((r, i) => {
     if (isRising && !breakoutDone && r.stars_prev >= BREAKOUT_THRESHOLD) {
       const hasBreakouts = rows.slice(0, i).some(p => p.stars_prev < BREAKOUT_THRESHOLD);
       if (hasBreakouts) {
         breakoutDone = true;
-        html += '<tr class="separator"><td colspan="7">\u2504 established repos</td></tr>';
+        html += '<tr class="separator"><td colspan="7">Established repos</td></tr>';
       }
     }
 
+    const parts = r.repo_name.split('/');
+    const owner = parts[0];
+    const name = parts[1];
     const desc = r.description || '';
     const lang = r.language || '';
+
     let meta = '';
-    if (lang) meta += `<span class="lang">[${esc(lang)}]</span> `;
-    if (desc) meta += esc(desc);
+    if (lang) meta += `<span class="lang-badge">${esc(lang)}</span>`;
+    if (desc) meta += `<span class="desc">${esc(desc)}</span>`;
 
     html += `<tr>
       <td class="rank">${i + 1}</td>
       <td>
-        <a class="repo-name" href="https://github.com/${esc(r.repo_name)}">${esc(r.repo_name)}</a>
-        ${meta ? `<div class="desc">${meta}</div>` : ''}
+        <a class="repo-link" href="https://github.com/${esc(r.repo_name)}" target="_blank" rel="noopener"><span class="repo-owner">${esc(owner)}/</span>${esc(name)}</a>
+        ${meta ? `<div class="repo-meta">${meta}</div>` : ''}
       </td>
-      <td class="num">${compact(r.total_stars)}</td>
-      <td class="num hide-mobile">${r.stars_recent}</td>
-      <td class="num hide-mobile">${r.stars_prev}</td>
-      <td class="num">${r.velocity}</td>
+      <td class="num stars-total">${compact(r.total_stars)}</td>
+      <td class="num hide-mobile">${compact(r.stars_recent)}</td>
+      <td class="num hide-mobile">${compact(r.stars_prev)}</td>
+      <td class="num"><span class="vel">${r.velocity}</span></td>
       ${pctCell(r)}
     </tr>`;
   });
 
-  html += '</table>';
+  html += '</tbody></table></div>';
   return html;
 }
 
@@ -187,29 +437,41 @@ async function load() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    document.getElementById('subtitle').textContent =
-      `${data.date} \u2022 ${data.window}-day window \u2022 ${data.min_stars}+ stars`;
+    document.getElementById('subtitle').innerHTML =
+      `<span class="badge">${data.date}</span>` +
+      `<span class="badge">${data.window}-day window</span>` +
+      `<span class="badge">${data.min_stars}+ stars</span>`;
 
     let html = '';
 
     if (data.fastest_rising) {
       html += `<div class="section">
-        <h2>Fastest Rising</h2>
+        <div class="section-header">
+          <h2>Fastest Rising</h2>
+          <span class="section-count">${data.fastest_rising.length} repos</span>
+        </div>
         ${buildTable(data.fastest_rising, 'fastest_rising')}
       </div>`;
     }
 
     if (data.highest_velocity) {
       html += `<div class="section">
-        <h2>Highest Velocity</h2>
+        <div class="section-header">
+          <h2>Highest Velocity</h2>
+          <span class="section-count">${data.highest_velocity.length} repos</span>
+        </div>
         ${buildTable(data.highest_velocity, 'highest_velocity')}
       </div>`;
     }
 
     document.getElementById('content').innerHTML = html;
+    document.getElementById('footer').style.display = 'flex';
   } catch (e) {
     document.getElementById('content').innerHTML =
-      `<p style="color:var(--red)">Failed to load data: ${esc(e.message)}</p>`;
+      `<div style="text-align:center;padding:4rem 0;color:var(--text-muted)">
+        <p style="font-weight:500;color:var(--text)">Failed to load data</p>
+        <p style="margin-top:0.25rem;font-size:0.875rem">${esc(e.message)}</p>
+      </div>`;
   }
 }
 
