@@ -38,29 +38,36 @@ LIMIT 200
 FORMAT JSON"""
 
 
-def query_clickhouse(query):
+def query_clickhouse(query, retries=3):
     curl = shutil.which("curl")
     if not curl:
         print("Error: curl not found in PATH", file=sys.stderr)
         sys.exit(1)
 
-    result = subprocess.run(
-        [curl, "-sS", "--fail-with-body", "--max-time", "30",
-         CLICKHOUSE_URL, "--data-binary", query],
-        capture_output=True, text=True,
-    )
+    for attempt in range(1, retries + 1):
+        result = subprocess.run(
+            [curl, "-sS", "--fail-with-body", "--max-time", "60",
+             CLICKHOUSE_URL, "--data-binary", query],
+            capture_output=True, text=True,
+        )
 
-    if result.returncode != 0:
-        msg = result.stderr.strip() or result.stdout.strip() or f"curl exited {result.returncode}"
-        print(f"Error: {msg}", file=sys.stderr)
-        sys.exit(1)
+        if result.returncode != 0:
+            msg = result.stderr.strip() or result.stdout.strip() or f"curl exited {result.returncode}"
+            if attempt < retries:
+                print(f"Attempt {attempt}/{retries} failed: {msg} — retrying...", file=sys.stderr)
+                continue
+            print(f"Error after {retries} attempts: {msg}", file=sys.stderr)
+            sys.exit(1)
 
-    try:
-        return json.loads(result.stdout)
-    except json.JSONDecodeError as e:
-        print(f"Error parsing response: {e}", file=sys.stderr)
-        print(result.stdout[:500], file=sys.stderr)
-        sys.exit(1)
+        try:
+            return json.loads(result.stdout)
+        except json.JSONDecodeError as e:
+            if attempt < retries:
+                print(f"Attempt {attempt}/{retries} got bad response — retrying...", file=sys.stderr)
+                continue
+            print(f"Error parsing response: {e}", file=sys.stderr)
+            print(result.stdout[:500], file=sys.stderr)
+            sys.exit(1)
 
 
 # ── GitHub API ───────────────────────────────────────────────────────────────
