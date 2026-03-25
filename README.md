@@ -1,67 +1,67 @@
 <!-- TRENDING_START -->
-## GitHub Trending Repos (Mar 24, 2026)
+## GitHub Trending Repos (Mar 25, 2026)
 Repos with 200+ total stars, 7-day window
 
 ### FASTEST RISING (% change in starring rate)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | 3.5k | 649 | 0 | 92.7 | +∞ | \[C#\] |
-| 2 | [openai/parameter-golf](https://github.com/openai/parameter-golf) | 3.7k | 638 | 0 | 91.1 | +∞ | \[Python\] Train the smallest LM you can that fits in 16MB. Best model wins! |
-| 3 | [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) | 3.3k | 574 | 0 | 82.0 | +∞ | \[Python\] ClawTeam: Agent Swarm Intelligence (One Command → Full Automation) |
-| 4 | [tiajinsha/JKVideo](https://github.com/tiajinsha/JKVideo) | 2.7k | 421 | 0 | 60.1 | +∞ | \[TypeScript\] 高颜值的第三方 B 站 React Native 客户端，支持安卓、H5、iOS \| Bilibili-like app with DASH playback, danmaku, WBI sign & live streaming |
-| 5 | [EverMind-AI/MSA](https://github.com/EverMind-AI/MSA) | 2.0k | 414 | 0 | 59.1 | +∞ |  |
-| 6 | [sgoudelis/ground-station](https://github.com/sgoudelis/ground-station) | 3.2k | 371 | 2 | 53.0 | +∞ | \[JavaScript\] Ground Station is all-in-one satellite monitoring suite |
-| 7 | [run-llama/liteparse](https://github.com/run-llama/liteparse) | 1.9k | 336 | 0 | 48.0 | +∞ | \[TypeScript\] A fast, helpful, and open-source document parser |
-| 8 | [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) | 2.3k | 335 | 0 | 47.9 | +∞ | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
+| 1 | [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills) | 4.4k | 790 | 2 | 112.9 | +∞ | \[C#\] |
+| 2 | [openai/parameter-golf](https://github.com/openai/parameter-golf) | 4.0k | 687 | 0 | 98.1 | +∞ | \[Python\] Train the smallest LM you can that fits in 16MB. Best model wins! |
+| 3 | [tiajinsha/JKVideo](https://github.com/tiajinsha/JKVideo) | 4.2k | 630 | 0 | 90.0 | +∞ | \[TypeScript\] 高颜值的第三方 B 站 React Native 客户端，支持安卓、H5、iOS \| Bilibili-like app with DASH playback, danmaku, WBI sign & live streaming |
+| 4 | [microsoft/RustTraining](https://github.com/microsoft/RustTraining) | 4.2k | 540 | 0 | 77.1 | +∞ | \[Rust\] Beginner, advanced, expert level Rust training material |
+| 5 | [EverMind-AI/MSA](https://github.com/EverMind-AI/MSA) | 2.1k | 422 | 0 | 60.3 | +∞ |  |
+| 6 | [run-llama/liteparse](https://github.com/run-llama/liteparse) | 2.0k | 351 | 0 | 50.1 | +∞ | \[TypeScript\] A fast, helpful, and open-source document parser |
+| 7 | [hectorvent/floci](https://github.com/hectorvent/floci) | 1.7k | 333 | 0 | 47.6 | +∞ | \[Java\] Light, fluffy, and always free - AWS Local Emulator |
+| 8 | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | 1.6k | 320 | 0 | 45.7 | +∞ | Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage. |
 | | **— established repos —** | | | | | | |
-| 9 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 8.8k | 1203 | 5 | 171.9 | +23960% | \[Java\] PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
-| 10 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 3.5k | 659 | 3 | 94.1 | +21867% | \[Shell\] Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
-| 11 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | 23.7k | 1569 | 22 | 224.1 | +7032% | \[Python\] Automate the process of making money online. |
-| 12 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | 8.2k | 491 | 9 | 70.1 | +5356% | \[Python\] An Open-Source Asynchronous Coding Agent |
-| 13 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 13.1k | 296 | 8 | 42.3 | +3600% | \[Python\] State-of-the-art TTS model under 25MB 😻 |
-| 14 | [mattpocock/skills](https://github.com/mattpocock/skills) | 9.5k | 1239 | 36 | 177.0 | +3342% | \[Shell\] My personal directory of skills, straight from my .claude directory. |
-| 15 | [pascalorg/editor](https://github.com/pascalorg/editor) | 3.9k | 576 | 19 | 82.3 | +2932% | \[TypeScript\] |
-| 16 | [pathwaycom/pathway](https://github.com/pathwaycom/pathway) | 62.2k | 367 | 14 | 52.4 | +2521% | \[Python\] Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. |
-| 17 | [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) | 7.9k | 180 | 12 | 25.7 | +1400% | \[CSS\] A Patch for GIMP 3+ for Photoshop Users |
-| 18 | [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | 58.8k | 320 | 25 | 45.7 | +1180% | \[Jupyter Notebook\] Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more. |
-| 19 | [systemd/systemd](https://github.com/systemd/systemd) | 16.1k | 174 | 14 | 24.9 | +1143% | \[C\] The systemd System and Service Manager |
-| 20 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 3.3k | 460 | 42 | 65.7 | +995% | \[Python\] Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks. |
-| 21 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 12.2k | 1321 | 127 | 188.7 | +940% | \[JavaScript\] A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
-| 22 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 39.8k | 1372 | 137 | 196.0 | +901% | \[Python\] TradingAgents: Multi-Agents LLM Financial Trading Framework |
-| 23 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 5.6k | 971 | 97 | 138.7 | +901% | \[TypeScript\] Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). |
-| 24 | [newton-physics/newton](https://github.com/newton-physics/newton) | 3.7k | 177 | 18 | 25.3 | +883% | \[Python\] An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers. |
-| 25 | [blitzdotdev/blitz-mac](https://github.com/blitzdotdev/blitz-mac) | 891 | 202 | 21 | 28.9 | +862% | \[Swift\] Blitz mac app |
+| 9 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 4.2k | 743 | 3 | 106.1 | +24667% | \[Shell\] Turn Claude Code into a full game dev studio — 48 AI agents, 36 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
+| 10 | [alexpasmantier/television](https://github.com/alexpasmantier/television) | 5.2k | 155 | 3 | 22.1 | +5067% | \[Rust\] A very fast, portable and hackable fuzzy finder. |
+| 11 | [pascalorg/editor](https://github.com/pascalorg/editor) | 6.0k | 851 | 20 | 121.6 | +4155% | \[TypeScript\] Create and share 3D architectural projects. |
+| 12 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 13.2k | 307 | 9 | 43.9 | +3311% | \[Python\] State-of-the-art TTS model under 25MB 😻 |
+| 13 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | 25.1k | 1671 | 93 | 238.7 | +1697% | \[Python\] Automate the process of making money online. |
+| 14 | [systemd/systemd](https://github.com/systemd/systemd) | 16.1k | 181 | 11 | 25.9 | +1545% | \[C\] The systemd System and Service Manager |
+| 15 | [VoltAgent/awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents) | 2.5k | 340 | 28 | 48.6 | +1114% | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
+| 16 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 52.9k | 430 | 36 | 61.4 | +1094% | \[Python\] 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. |
+| 17 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 41.3k | 1537 | 156 | 219.6 | +885% | \[Python\] TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| 18 | [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) | 8.0k | 172 | 18 | 24.6 | +856% | \[CSS\] A Patch for GIMP 3+ for Photoshop Users |
+| 19 | [blitzdotdev/blitz-mac](https://github.com/blitzdotdev/blitz-mac) | 923 | 207 | 22 | 29.6 | +841% | \[Swift\] Blitz mac app |
+| 20 | [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | 5.2k | 290 | 33 | 41.4 | +779% | \[Python\] |
+| 21 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | 18.8k | 280 | 32 | 40.0 | +775% | \[TypeScript\] Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. |
+| 22 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 6.0k | 984 | 119 | 140.6 | +727% | \[TypeScript\] Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). |
+| 23 | [newton-physics/newton](https://github.com/newton-physics/newton) | 3.7k | 174 | 23 | 24.9 | +657% | \[Python\] An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers. |
+| 24 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 34.1k | 157 | 22 | 22.4 | +614% | \[Go\] Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more |
+| 25 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 13.5k | 675 | 105 | 96.4 | +543% | Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 
 ### HIGHEST VELOCITY (most stars/day)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [garrytan/gstack](https://github.com/garrytan/gstack) | 43.2k | 4374 | 3840 | 624.9 | +14% | \[TypeScript\] Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| 2 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 102k | 3735 | 2310 | 533.6 | +62% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | 108k | 3225 | 2792 | 460.7 | +16% | \[Shell\] An agentic skills framework & software development methodology that works. |
-| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 333k | 2778 | 5089 | 396.9 | -45% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| 5 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 52.9k | 2443 | 3908 | 349.0 | -37% | \[Python\] AI agents running research on single-GPU nanochat training automatically |
-| 6 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | 13.9k | 2128 | 342 | 304.0 | +522% | \[TypeScript\] Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. |
-| 7 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 16.0k | 2044 | 378 | 292.0 | +441% | \[JavaScript\] Run OpenClaw more securely inside NVIDIA OpenShell with managed inference |
-| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 61.0k | 1951 | 5565 | 278.7 | -65% | \[Shell\] A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. |
-| 9 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 41.2k | 1648 | 3802 | 235.4 | -57% | \[Python\] A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 |
-| 10 | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | 40.2k | 1640 | 740 | 234.3 | +122% | \[JavaScript\] A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. |
-| 11 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 40.7k | 1616 | 633 | 230.9 | +155% | \[Python\] An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. |
-| 12 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | 23.7k | 1569 | 22 | 224.1 | +7032% | \[Python\] Automate the process of making money online. |
-| 13 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 11.8k | 1396 | 568 | 199.4 | +146% | \[TypeScript\] Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click |
-| 14 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 39.8k | 1372 | 137 | 196.0 | +901% | \[Python\] TradingAgents: Multi-Agents LLM Financial Trading Framework |
-| 15 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 12.2k | 1321 | 127 | 188.7 | +940% | \[JavaScript\] A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
-| 16 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 37.5k | 1315 | 1115 | 187.9 | +18% | \[TypeScript\] Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
-| 17 | [mattpocock/skills](https://github.com/mattpocock/skills) | 9.5k | 1239 | 36 | 177.0 | +3342% | \[Shell\] My personal directory of skills, straight from my .claude directory. |
-| 18 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 8.8k | 1203 | 5 | 171.9 | +23960% | \[Java\] PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
-| 19 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 129k | 999 | 869 | 142.7 | +15% | \[TypeScript\] The open source coding agent. |
-| 20 | [anthropics/skills](https://github.com/anthropics/skills) | 101k | 984 | 1321 | 140.6 | -26% | \[Python\] Public repository for Agent Skills |
-| 21 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 49.2k | 983 | 728 | 140.4 | +35% | \[Python\] An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| 22 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 5.6k | 971 | 97 | 138.7 | +901% | \[TypeScript\] Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). |
-| 23 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 8.1k | 950 | 310 | 135.7 | +206% | \[Python\] Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |
-| 24 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 22.2k | 900 | 3155 | 128.6 | -71% | \[Python\] CLI-Anything: Making ALL Software Agent-Native |
-| 25 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 32.3k | 841 | 2328 | 120.1 | -64% | \[TypeScript\] Open-source orchestration for zero-human companies |
+| 1 | [garrytan/gstack](https://github.com/garrytan/gstack) | 45.8k | 4163 | 4386 | 594.7 | -5% | \[TypeScript\] Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| 2 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 105k | 3750 | 2413 | 535.7 | +55% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | 111k | 2906 | 3158 | 415.1 | -8% | \[Shell\] An agentic skills framework & software development methodology that works. |
+| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 334k | 2551 | 4237 | 364.4 | -40% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| 5 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 54.9k | 2469 | 3249 | 352.7 | -24% | \[Python\] AI agents running research on single-GPU nanochat training automatically |
+| 6 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | 15.7k | 2292 | 369 | 327.4 | +521% | \[TypeScript\] Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. |
+| 7 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 44.5k | 2032 | 500 | 290.3 | +306% | \[Python\] An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. |
+| 8 | [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | 16.5k | 1702 | 772 | 243.1 | +120% | \[JavaScript\] Run OpenClaw more securely inside NVIDIA OpenShell with managed inference |
+| 9 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | 25.1k | 1671 | 93 | 238.7 | +1697% | \[Python\] Automate the process of making money online. |
+| 10 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 61.9k | 1635 | 5024 | 233.6 | -67% | \[Shell\] A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. |
+| 11 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 41.3k | 1537 | 156 | 219.6 | +885% | \[Python\] TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| 12 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 42.1k | 1449 | 3569 | 207.0 | -59% | \[Python\] A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 |
+| 13 | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | 41.0k | 1314 | 1073 | 187.7 | +22% | \[JavaScript\] A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. |
+| 14 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 12.9k | 1235 | 282 | 176.4 | +338% | \[JavaScript\] A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress |
+| 15 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 38.3k | 1137 | 1342 | 162.4 | -15% | \[TypeScript\] Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
+| 16 | [mattpocock/skills](https://github.com/mattpocock/skills) | 9.9k | 1130 | 188 | 161.4 | +501% | \[Shell\] My personal directory of skills, straight from my .claude directory. |
+| 17 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 9.2k | 1086 | 177 | 155.1 | +514% | \[Java\] PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
+| 18 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 129k | 1011 | 864 | 144.4 | +17% | \[TypeScript\] The open source coding agent. |
+| 19 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 6.0k | 984 | 119 | 140.6 | +727% | \[TypeScript\] Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported). |
+| 20 | [anthropics/skills](https://github.com/anthropics/skills) | 102k | 973 | 1224 | 139.0 | -21% | \[Python\] Public repository for Agent Skills |
+| 21 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 12.1k | 947 | 1075 | 135.3 | -12% | \[TypeScript\] Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click |
+| 22 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 50.0k | 911 | 826 | 130.1 | +10% | \[Python\] An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| 23 | [pascalorg/editor](https://github.com/pascalorg/editor) | 6.0k | 851 | 20 | 121.6 | +4155% | \[TypeScript\] Create and share 3D architectural projects. |
+| 24 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 22.7k | 849 | 2915 | 121.3 | -71% | \[Python\] CLI-Anything: Making ALL Software Agent-Native |
+| 25 | [jackwener/opencli](https://github.com/jackwener/opencli) | 6.4k | 840 | 299 | 120.0 | +181% | \[TypeScript\] Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration. |
 <!-- TRENDING_END -->
 
 # gh-trending
