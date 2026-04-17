@@ -1,67 +1,67 @@
 <!-- TRENDING_START -->
-## GitHub Trending Repos (Apr 16, 2026)
+## GitHub Trending Repos (Apr 17, 2026)
 Repos with 200+ total stars, 7-day window
 
 ### FASTEST RISING (% change in starring rate)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 46.8k | 942 | 0 | 134.6 | +∞ | \[Python\] The best-benchmarked open-source AI memory system. And it's free. |
-| 2 | [QuipNetwork/xq-py](https://github.com/QuipNetwork/xq-py) | 4.2k | 821 | 0 | 117.3 | +∞ | A python implementation of the Quip Network's quantum virtual machine |
-| 3 | [QuipNetwork/quip-protocol-rs](https://github.com/QuipNetwork/quip-protocol-rs) | 4.3k | 786 | 0 | 112.3 | +∞ | \[Rust\] A rust implementation of the Quip Protocol forked from Substrate |
-| 4 | [QuipNetwork/polkadot-sdk](https://github.com/QuipNetwork/polkadot-sdk) | 4.2k | 774 | 0 | 110.6 | +∞ | \[Rust\] The Parity Polkadot Blockchain SDK |
-| 5 | [QuipNetwork/xq-rs](https://github.com/QuipNetwork/xq-rs) | 4.3k | 753 | 0 | 107.6 | +∞ | \[Rust\] A rust implementation of the Quip Network's quantum virtual machine. |
-| 6 | [QuipNetwork/quip-node-manager](https://github.com/QuipNetwork/quip-node-manager) | 4.2k | 745 | 1 | 106.4 | +∞ | \[Rust\] A simple GUI client to manage a Quip Network node |
-| 7 | [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) | 3.1k | 631 | 0 | 90.1 | +∞ | \[Python\] Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. |
-| 8 | [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) | 2.7k | 417 | 0 | 59.6 | +∞ | \[HTML\] Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill. |
+| 1 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 47.2k | 952 | 0 | 136.0 | +∞ | \[Python\] The best-benchmarked open-source AI memory system. And it's free. |
+| 2 | [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) | 3.5k | 639 | 0 | 91.3 | +∞ | \[Python\] Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge. |
+| 3 | [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) | 3.1k | 424 | 0 | 60.6 | +∞ | \[HTML\] Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill. |
+| 4 | [google/magika](https://github.com/google/magika) | 15.0k | 419 | 2 | 59.9 | +∞ | \[Python\] Fast and accurate AI powered file content types detection |
+| 5 | [markdown-viewer/skills](https://github.com/markdown-viewer/skills) | 1.8k | 395 | 0 | 56.4 | +∞ | Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation. |
+| 6 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | 3.4k | 386 | 0 | 55.1 | +∞ | \[TypeScript\] An open source template for building cloud agents. |
+| 7 | [android/skills](https://github.com/android/skills) | 2.9k | 292 | 0 | 41.7 | +∞ |  |
+| 8 | [unicitynetwork/whitepaper](https://github.com/unicitynetwork/whitepaper) | 3.3k | 279 | 0 | 39.9 | +∞ | \[TeX\] |
 | | **— established repos —** | | | | | | |
-| 9 | [google/magika](https://github.com/google/magika) | 14.0k | 400 | 4 | 57.1 | +9900% | \[Python\] Fast and accurate AI powered file content types detection |
-| 10 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 8.5k | 1701 | 26 | 243.0 | +6442% | \[TypeScript\] Garry's Opinionated OpenClaw/Hermes Agent Brain |
-| 11 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 23.5k | 946 | 21 | 135.1 | +4405% | 💅🏻 ⚒ A collection of awesome design systems |
-| 12 | [QLHazyCoder/codex-oauth-automation-extension](https://github.com/QLHazyCoder/codex-oauth-automation-extension) | 1.6k | 292 | 8 | 41.7 | +3550% | \[JavaScript\] Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 |
-| 13 | [coleam00/Archon](https://github.com/coleam00/Archon) | 18.3k | 829 | 25 | 118.4 | +3216% | \[TypeScript\] The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. |
-| 14 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 9.6k | 667 | 24 | 95.3 | +2679% | \[PLSQL\] Open-source, low-cost 10.5 GHz PLFM phased array RADAR system |
-| 15 | [mswnlz/edu-knowlege](https://github.com/mswnlz/edu-knowlege) | 3.5k | 182 | 7 | 26.0 | +2500% | \[JavaScript\] 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中 |
-| 16 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 18.4k | 1309 | 62 | 187.0 | +2011% | \[Python\] Kronos: A Foundation Model for the Language of Financial Markets |
-| 17 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 45.3k | 5280 | 300 | 754.3 | +1660% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| 18 | [edenaion/EZ-CorridorKey](https://github.com/edenaion/EZ-CorridorKey) | 3.2k | 266 | 17 | 38.0 | +1465% | \[Python\] Perfect Green Screen Keys made EZ! |
-| 19 | [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) | 66.9k | 316 | 22 | 45.1 | +1336% | \[Assembly\] Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. |
-| 20 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 2.2k | 188 | 15 | 26.9 | +1153% | \[Python\] Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
-| 21 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 18.5k | 555 | 49 | 79.3 | +1033% | \[TypeScript\] The open-source voice synthesis studio |
-| 22 | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 3.6k | 533 | 56 | 76.1 | +852% | \[TypeScript\] Orchestrate coding agents remotely from your phone, desktop and CLI |
-| 23 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 109k | 2902 | 373 | 414.6 | +678% | \[Python\] Python tool for converting files and office documents to Markdown. |
-| 24 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 1.9k | 384 | 50 | 54.9 | +668% | \[Python\] "Vibe-Trading: Your Personal Trading Agent" |
-| 25 | [aloshdenny/reverse-SynthID](https://github.com/aloshdenny/reverse-SynthID) | 2.9k | 396 | 54 | 56.6 | +633% | \[Python\] reverse engineering Gemini's SynthID detection |
+| 9 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 23.5k | 944 | 21 | 134.9 | +4395% | 💅🏻 ⚒ A collection of awesome design systems |
+| 10 | [mswnlz/edu-knowlege](https://github.com/mswnlz/edu-knowlege) | 3.5k | 181 | 5 | 25.9 | +3520% | \[JavaScript\] 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中 |
+| 11 | [momenbasel/PureMac](https://github.com/momenbasel/PureMac) | 2.2k | 237 | 7 | 33.9 | +3286% | \[Swift\] Free, open-source macOS cleaner. CleanMyMac alternative with zero telemetry. Native SwiftUI, scheduled auto-cleaning, Xcode/Homebrew/system cache cleanup. MIT licensed. |
+| 12 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 12.2k | 695 | 23 | 99.3 | +2922% | \[PLSQL\] Open-source, low-cost 10.5 GHz PLFM phased array RADAR system |
+| 13 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 8.8k | 1666 | 68 | 238.0 | +2350% | \[TypeScript\] Garry's Opinionated OpenClaw/Hermes Agent Brain |
+| 14 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 3.1k | 209 | 13 | 29.9 | +1508% | \[Python\] Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
+| 15 | [edenaion/EZ-CorridorKey](https://github.com/edenaion/EZ-CorridorKey) | 3.3k | 263 | 18 | 37.6 | +1361% | \[Python\] Perfect Green Screen Keys made EZ! |
+| 16 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 19.3k | 563 | 44 | 80.4 | +1180% | \[TypeScript\] The open-source voice synthesis studio |
+| 17 | [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) | 67.2k | 316 | 30 | 45.1 | +953% | \[Assembly\] Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. |
+| 18 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 52.0k | 5156 | 557 | 736.6 | +826% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| 19 | [getpaseo/paseo](https://github.com/getpaseo/paseo) | 3.8k | 528 | 59 | 75.4 | +795% | \[TypeScript\] Orchestrate coding agents remotely from your phone, desktop and CLI |
+| 20 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 18.9k | 1233 | 152 | 176.1 | +711% | \[Python\] Kronos: A Foundation Model for the Language of Financial Markets |
+| 21 | [QLHazyCoder/codex-oauth-automation-extension](https://github.com/QLHazyCoder/codex-oauth-automation-extension) | 1.8k | 271 | 34 | 38.7 | +697% | \[JavaScript\] Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复 |
+| 22 | [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) | 11.0k | 263 | 33 | 37.6 | +697% | \[Python\] Perfect Green Screen Keys |
+| 23 | [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) | 9.7k | 170 | 25 | 24.3 | +580% | \[Python\] 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。 |
+| 24 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 19.9k | 265 | 43 | 37.9 | +516% | \[Python\] |
+| 25 | [alejandrobalderas/claude-code-from-source](https://github.com/alejandrobalderas/claude-code-from-source) | 1.6k | 231 | 42 | 33.0 | +450% | \[TypeScript\] Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps |
 
 ### HIGHEST VELOCITY (most stars/day)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 91.3k | 9501 | 3402 | 1357.3 | +179% | \[Python\] The agent that grows with you |
-| 2 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 45.3k | 5280 | 300 | 754.3 | +1660% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| 3 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 33.2k | 4442 | 1481 | 634.6 | +200% | \[Python\] 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman |
-| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 54.6k | 3121 | 7326 | 445.9 | -57% | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. |
-| 5 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 109k | 2902 | 373 | 414.6 | +678% | \[Python\] Python tool for converting files and office documents to Markdown. |
-| 6 | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 27.7k | 2428 | 2330 | 346.9 | +4% | \[Python\] AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph |
-| 7 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 45.2k | 2178 | 520 | 311.1 | +319% | \[HTML\] from vibe coding to agentic engineering - practice makes claude perfect |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | 154k | 2148 | 2265 | 306.9 | -5% | \[Shell\] An agentic skills framework & software development methodology that works. |
-| 9 | [multica-ai/multica](https://github.com/multica-ai/multica) | 14.0k | 2032 | 372 | 290.3 | +446% | \[TypeScript\] The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
-| 10 | [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace) | 46.8k | 1971 | 4625 | 281.6 | -57% | \[Python\] The best-benchmarked open-source AI memory system. And it's free. |
-| 11 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 58.3k | 1919 | 455 | 274.1 | +322% | \[TypeScript\] A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. |
-| 12 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 157k | 1905 | 3330 | 272.1 | -43% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
-| 13 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 8.5k | 1701 | 26 | 243.0 | +6442% | \[TypeScript\] Garry's Opinionated OpenClaw/Hermes Agent Brain |
-| 14 | [santifer/career-ops](https://github.com/santifer/career-ops) | 34.3k | 1562 | 4789 | 223.1 | -67% | \[JavaScript\] AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. |
-| 15 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 18.4k | 1309 | 62 | 187.0 | +2011% | \[Python\] Kronos: A Foundation Model for the Language of Financial Markets |
-| 16 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 13.5k | 1247 | 195 | 178.1 | +539% | \[Python\] VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning |
-| 17 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 358k | 1229 | 1702 | 175.6 | -28% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| 18 | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 11.5k | 1204 | 856 | 172.0 | +41% | \[Python\] 你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. |
-| 19 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 184k | 1200 | 9470 | 171.4 | -87% | \[Rust\] The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. |
-| 20 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 16.1k | 1153 | 2096 | 164.7 | -45% | \[Shell\] Production-grade engineering skills for AI coding agents. |
-| 21 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 6.0k | 1116 | 208 | 159.4 | +437% | 张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。 |
-| 22 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 27.6k | 1068 | 919 | 152.6 | +16% | \[Rust\] CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
-| 23 | [garrytan/gstack](https://github.com/garrytan/gstack) | 73.5k | 1005 | 1295 | 143.6 | -22% | \[TypeScript\] Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
-| 24 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 23.5k | 946 | 21 | 135.1 | +4405% | 💅🏻 ⚒ A collection of awesome design systems |
-| 25 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 46.8k | 942 | 0 | 134.6 | +∞ | \[Python\] The best-benchmarked open-source AI memory system. And it's free. |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 95.0k | 8326 | 4433 | 1189.4 | +88% | \[Python\] The agent that grows with you |
+| 2 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 52.0k | 5156 | 557 | 736.6 | +826% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| 3 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 35.6k | 4211 | 1751 | 601.6 | +140% | \[Python\] 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman |
+| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 57.2k | 2618 | 7479 | 374.0 | -65% | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. |
+| 5 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 110k | 2493 | 788 | 356.1 | +216% | \[Python\] Python tool for converting files and office documents to Markdown. |
+| 6 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 45.8k | 1907 | 696 | 272.4 | +174% | \[HTML\] from vibe coding to agentic engineering - practice makes claude perfect |
+| 7 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 60.6k | 1892 | 454 | 270.3 | +317% | \[TypeScript\] A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. |
+| 8 | [obra/superpowers](https://github.com/obra/superpowers) | 156k | 1832 | 2271 | 261.7 | -19% | \[Shell\] An agentic skills framework & software development methodology that works. |
+| 9 | [multica-ai/multica](https://github.com/multica-ai/multica) | 14.9k | 1831 | 553 | 261.6 | +231% | \[TypeScript\] The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
+| 10 | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 28.5k | 1743 | 3041 | 249.0 | -43% | \[Python\] AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph |
+| 11 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 8.8k | 1666 | 68 | 238.0 | +2350% | \[TypeScript\] Garry's Opinionated OpenClaw/Hermes Agent Brain |
+| 12 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 159k | 1647 | 3158 | 235.3 | -48% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
+| 13 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | 18.9k | 1233 | 152 | 176.1 | +711% | \[Python\] Kronos: A Foundation Model for the Language of Financial Markets |
+| 14 | [santifer/career-ops](https://github.com/santifer/career-ops) | 35.2k | 1174 | 5195 | 167.7 | -77% | \[JavaScript\] AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. |
+| 15 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 13.9k | 1104 | 345 | 157.7 | +220% | \[Python\] VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning |
+| 16 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 359k | 1044 | 1658 | 149.1 | -37% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| 17 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 185k | 1003 | 5684 | 143.3 | -82% | \[Rust\] The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex. |
+| 18 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 16.7k | 996 | 2267 | 142.3 | -56% | \[Shell\] Production-grade engineering skills for AI coding agents. |
+| 19 | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 12.0k | 994 | 1075 | 142.0 | -8% | \[Python\] 你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks. |
+| 20 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 47.2k | 952 | 0 | 136.0 | +∞ | \[Python\] The best-benchmarked open-source AI memory system. And it's free. |
+| 21 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 28.3k | 946 | 988 | 135.1 | -4% | \[Rust\] CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
+| 22 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 23.5k | 944 | 21 | 134.9 | +4395% | 💅🏻 ⚒ A collection of awesome design systems |
+| 23 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 6.1k | 858 | 470 | 122.6 | +83% | 张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。 |
+| 24 | [garrytan/gstack](https://github.com/garrytan/gstack) | 74.3k | 849 | 1197 | 121.3 | -29% | \[TypeScript\] Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| 25 | [anthropics/skills](https://github.com/anthropics/skills) | 119k | 804 | 951 | 114.9 | -15% | \[Python\] Public repository for Agent Skills |
 <!-- TRENDING_END -->
 
 # gh-trending
