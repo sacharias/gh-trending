@@ -22,13 +22,27 @@ jobs:
         run: uv tool install .
 
       - name: Generate trending data
+        id: gen
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -e
           gh-trending --md > /tmp/trending.md
-          gh-trending --json > docs/data.json
+          gh-trending --json > /tmp/data.json
+          # Only overwrite committed data.json if the new output is non-empty
+          # and valid JSON with at least one ranking populated.
+          python3 - <<'EOF'
+          import json, sys
+          with open('/tmp/data.json') as f:
+              d = json.load(f)
+          if not (d.get('fastest_rising') or d.get('highest_velocity')):
+              sys.exit("empty rankings")
+          EOF
+          mv /tmp/data.json docs/data.json
 
       - name: Update README
+        if: steps.gen.outcome == 'success'
         run: |
           python3 - <<'EOF'
           import re
@@ -48,6 +62,7 @@ jobs:
           EOF
 
       - name: Commit and push
+        if: steps.gen.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -65,3 +80,9 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+
+      - name: Fail job if data generation failed
+        if: steps.gen.outcome != 'success'
+        run: |
+          echo "Data generation failed; deployed existing docs/data.json as fallback."
+          exit 1
