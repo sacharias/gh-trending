@@ -3,6 +3,11 @@ name: Daily Trending
 on:
   schedule:
     - cron: '0 7 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/daily-trending.yml'
   workflow_dispatch:
 
 jobs:
