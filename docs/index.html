@@ -620,6 +620,7 @@ async function load() {
       }
     });
   } catch (e) {
+    document.getElementById('subtitle').textContent = '';
     document.getElementById('content').innerHTML =
       `<div style="text-align:center;padding:4rem 0;color:var(--text-muted)">
         <p style="font-weight:500;color:var(--text)">Failed to load data</p>
