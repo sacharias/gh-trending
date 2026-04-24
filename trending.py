@@ -376,7 +376,7 @@ def main():
     rows = data.get("data", [])
     if not rows:
         print("No results found.", file=sys.stderr)
-        sys.exit(0)
+        sys.exit(1)
 
     for r in rows:
         r["total_stars"] = int(r["total_stars"])
