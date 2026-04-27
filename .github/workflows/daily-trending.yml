@@ -2,7 +2,7 @@ name: Daily Trending
 
 on:
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '0 5 * * *'
   push:
     branches: [main]
     paths:
@@ -33,7 +33,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -e
-          gh-trending --md > /tmp/trending.md
           gh-trending --json > /tmp/data.json
           # Only overwrite committed data.json if the new output is non-empty
           # and valid JSON with at least one ranking populated.
@@ -46,32 +45,12 @@ jobs:
           EOF
           mv /tmp/data.json docs/data.json
 
-      - name: Update README
-        if: steps.gen.outcome == 'success'
-        run: |
-          python3 - <<'EOF'
-          import re
-          with open('/tmp/trending.md') as f:
-              trending = f.read().strip()
-          with open('README.md') as f:
-              content = f.read()
-          new_section = f'<!-- TRENDING_START -->\n{trending}\n<!-- TRENDING_END -->'
-          content = re.sub(
-              r'<!-- TRENDING_START -->.*?<!-- TRENDING_END -->',
-              new_section,
-              content,
-              flags=re.DOTALL,
-          )
-          with open('README.md', 'w') as f:
-              f.write(content)
-          EOF
-
       - name: Commit and push
         if: steps.gen.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md docs/data.json
+          git add docs/data.json
           git diff --cached --quiet || git commit -m "Update trending repos [skip ci]"
           git push
 
