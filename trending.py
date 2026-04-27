@@ -9,7 +9,7 @@ import subprocess
 import sys
 from datetime import date
 
-CLICKHOUSE_URL = "https://gh-api.clickhouse.tech/?user=play"
+CLICKHOUSE_URL = "https://sql-clickhouse.clickhouse.com/?user=play"
 PCT_CAP = 9999
 BREAKOUT_THRESHOLD = 3  # prev stars below this = "breakout" repo
 
@@ -18,19 +18,22 @@ BREAKOUT_THRESHOLD = 3  # prev stars below this = "breakout" repo
 
 
 def build_query(window_days, min_stars, min_recent):
+    # `created_at` filter in WHERE prunes partitions on sql-clickhouse.clickhouse.com,
+    # which scans far more events than the legacy gh-api playground.
+    # `total_stars` here is event count over the 2*window range — the actual
+    # GitHub stargazerCount is filled in later via fetch_repo_info().
     return f"""\
 SELECT
     repo_name,
     count() AS total_stars,
     countIf(created_at >= now() - INTERVAL {window_days} DAY) AS stars_recent,
-    countIf(created_at >= now() - INTERVAL {window_days * 2} DAY
-        AND created_at < now() - INTERVAL {window_days} DAY) AS stars_prev,
+    countIf(created_at < now() - INTERVAL {window_days} DAY) AS stars_prev,
     round(countIf(created_at >= now() - INTERVAL {window_days} DAY) / {window_days}.0, 1) AS velocity,
     toInt64(countIf(created_at >= now() - INTERVAL {window_days} DAY))
-        - toInt64(countIf(created_at >= now() - INTERVAL {window_days * 2} DAY
-            AND created_at < now() - INTERVAL {window_days} DAY)) AS acceleration
-FROM github_events
+        - toInt64(countIf(created_at < now() - INTERVAL {window_days} DAY)) AS acceleration
+FROM github.github_events
 WHERE event_type = 'WatchEvent'
+  AND created_at >= now() - INTERVAL {window_days * 2} DAY
 GROUP BY repo_name
 HAVING total_stars >= {min_stars} AND stars_recent >= {min_recent}
 ORDER BY velocity DESC
