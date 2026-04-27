@@ -1,67 +1,67 @@
 <!-- TRENDING_START -->
-## GitHub Trending Repos (Apr 23, 2026)
+## GitHub Trending Repos (Apr 27, 2026)
 Repos with 200+ total stars, 7-day window
 
 ### FASTEST RISING (% change in starring rate)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [luzhenhua/NCE-Flow](https://github.com/luzhenhua/NCE-Flow) | 2.1k | 5 | 2 | 0.7 | +∞ | \[JavaScript\] 新概念英语在线点读，点句即读、连续播放，支持 EN / EN+CN / CN。 |
+| 1 | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | 9.3k | 1207 | 0 | 172.4 | +∞ | \[TypeScript\] A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. |
+| 2 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | 7.3k | 1178 | 1 | 168.3 | +∞ | \[TypeScript\] Desktop app to manage markdown knowledge bases |
+| 3 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 8.3k | 1044 | 0 | 149.1 | +∞ | \[HTML\] Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic |
+| 4 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 7.0k | 907 | 0 | 129.6 | +∞ | \[Python\] 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models |
+| 5 | [google/skills](https://github.com/google/skills) | 4.5k | 826 | 0 | 118.0 | +∞ | Agent Skills for Google products and technologies |
+| 6 | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 3.4k | 595 | 0 | 85.0 | +∞ | \[HTML\] A Claude Code Skill that turns prompts into horizontal-swipe magazine-style HTML decks — 10 layouts, 5 curated themes, WebGL hero backgrounds, single-file output. |
+| 7 | [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | 3.2k | 488 | 0 | 69.7 | +∞ | \[TypeScript\] 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source. |
+| 8 | [tw93/Kami](https://github.com/tw93/Kami) | 3.6k | 446 | 0 | 63.7 | +∞ | \[HTML\] 👩‍🚒 Good content deserves good paper. |
 | | **— established repos —** | | | | | | |
-| 2 | [wotakumoe/wotaku](https://github.com/wotakumoe/wotaku) | 2.4k | 7 | 5 | 1.0 | +40% | \[TypeScript\] An otaku index for everything! ⭐ Star the project if you like it! |
-| 3 | [microsoft/apm](https://github.com/microsoft/apm) | 2.0k | 17 | 15 | 2.4 | +13% | \[Python\] Agent Package Manager |
-| 4 | [iawia002/lux](https://github.com/iawia002/lux) | 31.3k | 6 | 18 | 0.9 | -67% | \[Go\] 👾 Fast and simple video download library and CLI tool written in Go |
-| 5 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 24.7k | 9 | 42 | 1.3 | -79% | \[Python\] A lightweight, powerful framework for multi-agent workflows |
-| 6 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 35.5k | 10 | 62 | 1.4 | -84% | \[Rust\] Comfortably monitor your Internet traffic 🕵️‍♂️ |
-| 7 | [unicitynetwork/whitepaper](https://github.com/unicitynetwork/whitepaper) | 7.7k | 37 | 242 | 5.3 | -85% | \[TeX\] |
-| 8 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | 6.6k | 19 | 131 | 2.7 | -85% | \[JavaScript\] The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. \| evomap.ai |
-| 9 | [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) | 2.3k | 7 | 58 | 1.0 | -88% | \[HTML\] Paste any GitHub URL → interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts — runs entirely in your browser. |
-| 10 | [seanprashad/leetcode-patterns](https://github.com/seanprashad/leetcode-patterns) | 12.8k | 6 | 49 | 0.9 | -88% | \[TypeScript\] A pattern-based approach to learn technical interview questions |
-| 11 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | 45.0k | 6 | 56 | 0.9 | -89% | \[TypeScript\] The open alternative to Salesforce, designed for AI. |
-| 12 | [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | 4.7k | 6 | 54 | 0.9 | -89% | \[Shell\] Claude Code skill to support Android app's reverse engineering |
-| 13 | [davebcn87/pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | 6.1k | 15 | 163 | 2.1 | -91% | \[TypeScript\] Autonomous experiment loop extension for pi |
-| 14 | [z-lab/dflash](https://github.com/z-lab/dflash) | 2.2k | 7 | 74 | 1.0 | -91% | \[Python\] DFlash: Block Diffusion for Flash Speculative Decoding |
-| 15 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | 2.7k | 6 | 64 | 0.9 | -91% | \[TypeScript\] :sparkles:  An advanced 3D Gaussian Splatting renderer for THREE.js |
-| 16 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 6.0k | 16 | 193 | 2.3 | -92% | \[Python\] Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
-| 17 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 16.6k | 7 | 83 | 1.0 | -92% | \[Python\] Knowledge Engine for AI Agent Memory in 6 lines of code |
-| 18 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | 12.0k | 7 | 102 | 1.0 | -93% | \[Dart\] AI that sees your screen, listens to your conversations and tells you what to do |
-| 19 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | 4.1k | 17 | 369 | 2.4 | -95% | \[TypeScript\] An open source template for building cloud agents. |
-| 20 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 15.6k | 16 | 324 | 2.3 | -95% | \[Shell\] Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
-| 21 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 42.4k | 14 | 300 | 2.0 | -95% | \[TypeScript\] Spec-driven development (SDD) for AI coding assistants. |
-| 22 | [canopy-network/canopy](https://github.com/canopy-network/canopy) | 10.4k | 6 | 115 | 0.9 | -95% | \[Go\] The official go implementation of the Canopy Network protocol |
-| 23 | [Flowseal/tg-ws-proxy](https://github.com/Flowseal/tg-ws-proxy) | 5.4k | 5 | 91 | 0.7 | -95% | \[Python\] Local MTProto proxy server for partial bypassing of Telegram loading |
-| 24 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 17.7k | 25 | 672 | 3.6 | -96% | \[PLSQL\] Open-source, low-cost 10.5 GHz PLFM phased array RADAR system |
-| 25 | [google/magika](https://github.com/google/magika) | 16.5k | 17 | 402 | 2.4 | -96% | \[Python\] Fast and accurate AI powered file content types detection |
+| 9 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 15.9k | 2136 | 27 | 305.1 | +7811% | \[Python\] Use claude-code for free in the terminal, VSCode extension or via discord like openclaw |
+| 10 | [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) | 1.5k | 298 | 4 | 42.6 | +7350% | \[TypeScript\] Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram. |
+| 11 | [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | 4.4k | 539 | 8 | 77.0 | +6638% | \[Rust\] Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. |
+| 12 | [HQarroum/docker-android](https://github.com/HQarroum/docker-android) | 5.0k | 214 | 4 | 30.6 | +5250% | \[Shell\] 🤖 A minimal and customizable Docker image running the Android emulator as a service. |
+| 13 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | 2.7k | 284 | 6 | 40.6 | +4633% | \[Python\] A curated list of practical Codex skills for automating workflows across the Codex CLI and API. |
+| 14 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | 66.9k | 1388 | 43 | 198.3 | +3128% | \[Python\] ALL IN ONE Hacking Tool For Hackers |
+| 15 | [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | 7.0k | 1320 | 52 | 188.6 | +2438% | \[Rust\] The headless browser for AI agents and web scraping |
+| 16 | [trycua/cua](https://github.com/trycua/cua) | 14.7k | 203 | 11 | 29.0 | +1745% | \[HTML\] Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows). |
+| 17 | [PostHog/posthog](https://github.com/PostHog/posthog) | 34.1k | 278 | 17 | 39.7 | +1535% | \[Python\] 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack. |
+| 18 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | 9.8k | 504 | 47 | 72.0 | +972% | \[TypeScript\] Code search MCP for Claude Code. Make entire codebase the context for any coding agent. |
+| 19 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 7.9k | 222 | 25 | 31.7 | +788% | \[JavaScript\] A Cloudflare-based email service  \| 基于 Cloudflare 的邮箱服务  \| Cloudflare Email 邮箱 Mail |
+| 20 | [mattpocock/skills](https://github.com/mattpocock/skills) | 29.3k | 2042 | 289 | 291.7 | +607% | \[Shell\] Skills for Real Engineers. Straight from my .claude directory. |
+| 21 | [EvoLinkAI/awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) | 6.6k | 927 | 170 | 132.4 | +445% | \[Python\] Curated GPT-Image-2 prompts fot the Openai API：image examples across portraits, posters, UI mockups, character sheets, and community experiments. |
+| 22 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 9.3k | 605 | 120 | 86.4 | +404% | \[JavaScript\] Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
+| 23 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 59.8k | 373 | 92 | 53.3 | +305% | \[Jupyter Notebook\] 12 Lessons to Get Started Building AI Agents |
+| 24 | [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 7.1k | 200 | 54 | 28.6 | +270% | \[JavaScript\] 💻 vibe coding 2026 \| Your first modern programming course for beginners to master step by step. |
+| 25 | [gastownhall/beads](https://github.com/gastownhall/beads) | 22.1k | 163 | 45 | 23.3 | +262% | \[Go\] Beads - A memory upgrade for your coding agent |
 
 ### HIGHEST VELOCITY (most stars/day)
 
 | # | Repo | ⭐ | 7d | Prev | Vel/d | Chg% | Description |
 |--:|------|---:|---:|---:|---:|---:|-------------|
-| 1 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 77.7k | 113 | 5300 | 16.1 | -98% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| 2 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 111k | 61 | 9518 | 8.7 | -99% | \[Python\] The agent that grows with you |
-| 3 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 63.6k | 58 | 3127 | 8.3 | -98% | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | 164k | 42 | 2158 | 6.0 | -98% | \[Shell\] An agentic skills framework & software development methodology that works. |
-| 5 | [unicitynetwork/whitepaper](https://github.com/unicitynetwork/whitepaper) | 7.7k | 37 | 242 | 5.3 | -85% | \[TeX\] |
-| 6 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 43.9k | 33 | 4448 | 4.7 | -99% | \[Python\] 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman |
-| 7 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 66.0k | 31 | 1923 | 4.4 | -98% | \[TypeScript\] A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. |
-| 8 | [multica-ai/multica](https://github.com/multica-ai/multica) | 19.7k | 26 | 2037 | 3.7 | -99% | \[TypeScript\] The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
-| 9 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 17.7k | 25 | 672 | 3.6 | -96% | \[PLSQL\] Open-source, low-cost 10.5 GHz PLFM phased array RADAR system |
-| 10 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 164k | 24 | 1910 | 3.4 | -99% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
-| 11 | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 33.3k | 23 | 2431 | 3.3 | -99% | \[Python\] AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph |
-| 12 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | 6.6k | 19 | 131 | 2.7 | -85% | \[JavaScript\] The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. \| evomap.ai |
-| 13 | [anthropics/skills](https://github.com/anthropics/skills) | 122k | 19 | 919 | 2.7 | -98% | \[Python\] Public repository for Agent Skills |
-| 14 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 147k | 18 | 723 | 2.6 | -98% | \[TypeScript\] The open source coding agent. |
-| 15 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 85.6k | 18 | 772 | 2.6 | -98% | \[Shell\] A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. |
-| 16 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 362k | 18 | 1233 | 2.6 | -99% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
-| 17 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 33.8k | 17 | 535 | 2.4 | -97% | \[Jupyter Notebook\] 《动手学大模型Dive into LLMs》系列编程实践教程 |
-| 18 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 57.9k | 17 | 779 | 2.4 | -98% | \[TypeScript\] Open-source orchestration for zero-human companies |
-| 19 | [google/magika](https://github.com/google/magika) | 16.5k | 17 | 402 | 2.4 | -96% | \[Python\] Fast and accurate AI powered file content types detection |
-| 20 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | 4.1k | 17 | 369 | 2.4 | -95% | \[TypeScript\] An open source template for building cloud agents. |
-| 21 | [santifer/career-ops](https://github.com/santifer/career-ops) | 38.6k | 17 | 1561 | 2.4 | -99% | \[JavaScript\] AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. |
-| 22 | [microsoft/apm](https://github.com/microsoft/apm) | 2.0k | 17 | 15 | 2.4 | +13% | \[Python\] Agent Package Manager |
-| 23 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 69.4k | 16 | 754 | 2.3 | -98% | \[Python\] An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
-| 24 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 49.5k | 16 | 700 | 2.3 | -98% | \[Rust\] A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI. |
-| 25 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 6.0k | 16 | 193 | 2.3 | -92% | \[Python\] Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
+| 1 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 93.7k | 4211 | 5069 | 601.6 | -17% | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| 2 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 120k | 2210 | 4475 | 315.7 | -51% | \[Python\] The agent that grows with you |
+| 3 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 15.9k | 2136 | 27 | 305.1 | +7811% | \[Python\] Use claude-code for free in the terminal, VSCode extension or via discord like openclaw |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 29.3k | 2042 | 289 | 291.7 | +607% | \[Shell\] Skills for Real Engineers. Straight from my .claude directory. |
+| 5 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | 66.9k | 1388 | 43 | 198.3 | +3128% | \[Python\] ALL IN ONE Hacking Tool For Hackers |
+| 6 | [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | 7.0k | 1320 | 52 | 188.6 | +2438% | \[Rust\] The headless browser for AI agents and web scraping |
+| 7 | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | 9.3k | 1207 | 0 | 172.4 | +∞ | \[TypeScript\] A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. |
+| 8 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | 7.3k | 1178 | 1 | 168.3 | +∞ | \[TypeScript\] Desktop app to manage markdown knowledge bases |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | 169k | 1143 | 1748 | 163.3 | -35% | \[Shell\] An agentic skills framework & software development methodology that works. |
+| 10 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 8.3k | 1044 | 0 | 149.1 | +∞ | \[HTML\] Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic |
+| 11 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 16.1k | 1005 | 1190 | 143.6 | -16% | \[Python\] FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment. |
+| 12 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 48.0k | 952 | 1942 | 136.0 | -51% | \[Python\] 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman |
+| 13 | [EvoLinkAI/awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) | 6.6k | 927 | 170 | 132.4 | +445% | \[Python\] Curated GPT-Image-2 prompts fot the Openai API：image examples across portraits, posters, UI mockups, character sheets, and community experiments. |
+| 14 | [garrytan/gstack](https://github.com/garrytan/gstack) | 85.2k | 910 | 1238 | 130.0 | -26% | \[TypeScript\] Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
+| 15 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 7.0k | 907 | 0 | 129.6 | +∞ | \[Python\] 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models |
+| 16 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 168k | 900 | 1221 | 128.6 | -26% | \[JavaScript\] The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
+| 17 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 36.9k | 880 | 811 | 125.7 | +9% | \[Rust\] CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
+| 18 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 24.5k | 860 | 578 | 122.9 | +49% | \[Shell\] Production-grade engineering skills for AI coding agents. |
+| 19 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 25.7k | 856 | 659 | 122.3 | +30% | LEAKED SYSTEM PROMPTS FOR CHATGPT, GEMINI, GROK, CLAUDE, PERPLEXITY, CURSOR, DEVIN, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐 |
+| 20 | [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos) | 10.8k | 851 | 637 | 121.6 | +34% | \[Python\] A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. |
+| 21 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 497k | 835 | 415 | 119.3 | +101% | \[Markdown\] Master programming by recreating your favorite technologies from scratch. |
+| 22 | [google/skills](https://github.com/google/skills) | 4.5k | 826 | 0 | 118.0 | +∞ | Agent Skills for Google products and technologies |
+| 23 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 66.7k | 800 | 1951 | 114.3 | -59% | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. |
+| 24 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 365k | 773 | 889 | 110.4 | -13% | \[TypeScript\] Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| 25 | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 36.4k | 764 | 1003 | 109.1 | -24% | \[Python\] AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph |
 <!-- TRENDING_END -->
 
 # gh-trending
