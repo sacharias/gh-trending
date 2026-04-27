@@ -5,7 +5,7 @@
   "fastest_rising": [
     {
       "repo_name": "google-labs-code/design.md",
-      "total_stars": 9279,
+      "total_stars": 9280,
       "stars_recent": 1207,
       "stars_prev": 0,
       "velocity": 172.4,
@@ -16,7 +16,7 @@
     },
     {
       "repo_name": "refactoringhq/tolaria",
-      "total_stars": 7256,
+      "total_stars": 7258,
       "stars_recent": 1178,
       "stars_prev": 1,
       "velocity": 168.3,
@@ -93,7 +93,7 @@
     },
     {
       "repo_name": "Alishahryar1/free-claude-code",
-      "total_stars": 15880,
+      "total_stars": 15882,
       "stars_recent": 2136,
       "stars_prev": 27,
       "velocity": 305.1,
@@ -148,7 +148,7 @@
     },
     {
       "repo_name": "Z4nzu/hackingtool",
-      "total_stars": 66927,
+      "total_stars": 66931,
       "stars_recent": 1388,
       "stars_prev": 43,
       "velocity": 198.3,
@@ -159,7 +159,7 @@
     },
     {
       "repo_name": "h4ckf0r0day/obscura",
-      "total_stars": 7035,
+      "total_stars": 7036,
       "stars_recent": 1320,
       "stars_prev": 52,
       "velocity": 188.6,
@@ -170,7 +170,7 @@
     },
     {
       "repo_name": "trycua/cua",
-      "total_stars": 14728,
+      "total_stars": 14729,
       "stars_recent": 203,
       "stars_prev": 11,
       "velocity": 29.0,
@@ -192,7 +192,7 @@
     },
     {
       "repo_name": "zilliztech/claude-context",
-      "total_stars": 9839,
+      "total_stars": 9840,
       "stars_recent": 504,
       "stars_prev": 47,
       "velocity": 72.0,
@@ -214,7 +214,7 @@
     },
     {
       "repo_name": "mattpocock/skills",
-      "total_stars": 29328,
+      "total_stars": 29341,
       "stars_recent": 2042,
       "stars_prev": 289,
       "velocity": 291.7,
@@ -282,11 +282,11 @@
   "highest_velocity": [
     {
       "repo_name": "forrestchang/andrej-karpathy-skills",
-      "total_stars": 93740,
+      "total_stars": 93744,
       "stars_recent": 4211,
-      "stars_prev": 5067,
+      "stars_prev": 5066,
       "velocity": 601.6,
-      "acceleration": -856,
+      "acceleration": -855,
       "pct_change": -17,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": ""
@@ -304,7 +304,7 @@
     },
     {
       "repo_name": "Alishahryar1/free-claude-code",
-      "total_stars": 15880,
+      "total_stars": 15882,
       "stars_recent": 2136,
       "stars_prev": 27,
       "velocity": 305.1,
@@ -315,7 +315,7 @@
     },
     {
       "repo_name": "mattpocock/skills",
-      "total_stars": 29328,
+      "total_stars": 29341,
       "stars_recent": 2042,
       "stars_prev": 289,
       "velocity": 291.7,
@@ -326,7 +326,7 @@
     },
     {
       "repo_name": "Z4nzu/hackingtool",
-      "total_stars": 66927,
+      "total_stars": 66931,
       "stars_recent": 1388,
       "stars_prev": 43,
       "velocity": 198.3,
@@ -337,7 +337,7 @@
     },
     {
       "repo_name": "h4ckf0r0day/obscura",
-      "total_stars": 7035,
+      "total_stars": 7036,
       "stars_recent": 1320,
       "stars_prev": 52,
       "velocity": 188.6,
@@ -348,7 +348,7 @@
     },
     {
       "repo_name": "google-labs-code/design.md",
-      "total_stars": 9279,
+      "total_stars": 9280,
       "stars_recent": 1207,
       "stars_prev": 0,
       "velocity": 172.4,
@@ -359,7 +359,7 @@
     },
     {
       "repo_name": "refactoringhq/tolaria",
-      "total_stars": 7256,
+      "total_stars": 7258,
       "stars_recent": 1178,
       "stars_prev": 1,
       "velocity": 168.3,
@@ -370,11 +370,11 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 169797,
+      "total_stars": 169798,
       "stars_recent": 1143,
-      "stars_prev": 1748,
+      "stars_prev": 1747,
       "velocity": 163.3,
-      "acceleration": -605,
+      "acceleration": -604,
       "pct_change": -35,
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell"
@@ -392,7 +392,7 @@
     },
     {
       "repo_name": "Fincept-Corporation/FinceptTerminal",
-      "total_stars": 16135,
+      "total_stars": 16136,
       "stars_recent": 1005,
       "stars_prev": 1190,
       "velocity": 143.6,
@@ -403,7 +403,7 @@
     },
     {
       "repo_name": "JuliusBrussee/caveman",
-      "total_stars": 48028,
+      "total_stars": 48029,
       "stars_recent": 951,
       "stars_prev": 1943,
       "velocity": 135.9,
@@ -425,12 +425,12 @@
     },
     {
       "repo_name": "garrytan/gstack",
-      "total_stars": 85169,
-      "stars_recent": 910,
-      "stars_prev": 1238,
-      "velocity": 130.0,
-      "acceleration": -328,
-      "pct_change": -26,
+      "total_stars": 85171,
+      "stars_recent": 909,
+      "stars_prev": 1239,
+      "velocity": 129.9,
+      "acceleration": -330,
+      "pct_change": -27,
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript"
     },
@@ -458,7 +458,7 @@
     },
     {
       "repo_name": "rtk-ai/rtk",
-      "total_stars": 36930,
+      "total_stars": 36931,
       "stars_recent": 880,
       "stars_prev": 811,
       "velocity": 125.7,
@@ -481,17 +481,17 @@
     {
       "repo_name": "elder-plinius/CL4R1T4S",
       "total_stars": 25693,
-      "stars_recent": 856,
-      "stars_prev": 659,
-      "velocity": 122.3,
-      "acceleration": 197,
+      "stars_recent": 855,
+      "stars_prev": 660,
+      "velocity": 122.1,
+      "acceleration": 195,
       "pct_change": 30,
       "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, GEMINI, GROK, CLAUDE, PERPLEXITY, CURSOR, DEVIN, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! \ud83d\udc50",
       "language": ""
     },
     {
       "repo_name": "kyegomez/OpenMythos",
-      "total_stars": 10825,
+      "total_stars": 10826,
       "stars_recent": 850,
       "stars_prev": 638,
       "velocity": 121.4,
@@ -502,7 +502,7 @@
     },
     {
       "repo_name": "codecrafters-io/build-your-own-x",
-      "total_stars": 497387,
+      "total_stars": 497389,
       "stars_recent": 835,
       "stars_prev": 413,
       "velocity": 119.3,
@@ -524,7 +524,7 @@
     },
     {
       "repo_name": "VoltAgent/awesome-design-md",
-      "total_stars": 66689,
+      "total_stars": 66692,
       "stars_recent": 799,
       "stars_prev": 1952,
       "velocity": 114.1,
@@ -535,7 +535,7 @@
     },
     {
       "repo_name": "openclaw/openclaw",
-      "total_stars": 365296,
+      "total_stars": 365298,
       "stars_recent": 772,
       "stars_prev": 890,
       "velocity": 110.3,
@@ -546,7 +546,7 @@
     },
     {
       "repo_name": "safishamsi/graphify",
-      "total_stars": 36382,
+      "total_stars": 36384,
       "stars_recent": 764,
       "stars_prev": 1002,
       "velocity": 109.1,
