@@ -1,4 +1,55 @@
-<!doctype html>
+"""Static JSON and HTML rendering."""
+
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+from .metrics import BREAKOUT_THRESHOLD, PCT_CAP, pick_rising, pick_velocity
+
+
+def build_payload(
+    rows: list[dict[str, Any]],
+    *,
+    window: int,
+    min_stars: int,
+    min_recent: int,
+    top: int,
+    source_limit: int,
+) -> dict[str, Any]:
+    generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    return {
+        "generated_at": generated_at,
+        "window_days": window,
+        "min_stars": min_stars,
+        "min_recent": min_recent,
+        "source_limit": source_limit,
+        "top": top,
+        "fastest_rising": pick_rising(rows, top),
+        "highest_velocity": pick_velocity(rows, top),
+    }
+
+
+def write_data(payload: dict[str, Any], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def write_index(path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(INDEX_HTML, encoding="utf-8")
+
+
+def pct_label(row: dict[str, Any]) -> str:
+    if row["stars_prev"] < BREAKOUT_THRESHOLD or row.get("pct_change") == PCT_CAP:
+        return "+inf"
+    pct = int(row["pct_change"])
+    return f"+{pct}%" if pct > 0 else f"{pct}%"
+
+
+INDEX_HTML = """<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -261,3 +312,4 @@
   </script>
 </body>
 </html>
+"""

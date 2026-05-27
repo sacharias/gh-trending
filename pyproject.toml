@@ -1,16 +1,27 @@
-[project]
-name = "gh-trending"
-version = "0.1.0"
-description = "Find GitHub repos with the most momentum"
-requires-python = ">=3.9"
-
-[project.scripts]
-gh-trending = "trending:main"
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[project]
+name = "mercury-gh-radar"
+version = "0.1.0"
+description = "Static GitHub star-momentum radar powered by ClickHouse GitHub Events."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Mercury by ASF Studio" }]
+keywords = ["github", "trending", "clickhouse", "static-site"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.scripts]
+mercury-gh-radar = "mercury_gh_radar.cli:main"
+
 [tool.hatch.build.targets.wheel]
-packages = ["."]
-only-include = ["trending.py"]
+packages = ["mercury_gh_radar"]
