@@ -44,6 +44,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--index-path", type=Path, default=Path("docs/index.html"))
     parser.add_argument("--cache-path", type=Path, default=DEFAULT_CACHE_PATH)
     parser.add_argument(
+        "--json",
+        action="store_true",
+        dest="json_out",
+        help="Write generated JSON to stdout instead of docs files. Kept for gh-trending workflow compatibility.",
+    )
+    parser.add_argument(
         "--readme-cache-ttl",
         type=int,
         default=60 * 60 * 24,
@@ -86,6 +92,13 @@ def main(argv: list[str] | None = None) -> int:
         top=args.top,
         source_limit=args.source_limit,
     )
+    if args.json_out:
+        import json
+
+        json.dump(payload, sys.stdout, indent=2)
+        print()
+        return 0
+
     write_data(payload, args.data_path)
     write_index(args.index_path)
     print(f"Wrote {args.data_path} and {args.index_path}.", file=sys.stderr)

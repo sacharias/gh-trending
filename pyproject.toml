@@ -22,6 +22,7 @@ dependencies = []
 
 [project.scripts]
 mercury-gh-radar = "mercury_gh_radar.cli:main"
+gh-trending = "mercury_gh_radar.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["mercury_gh_radar"]
