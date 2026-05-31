@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T06:17:47+00:00",
+  "generated_at": "2026-05-31T06:18:18+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -99,7 +99,7 @@
     },
     {
       "repo_name": "microsoft/markitdown",
-      "total_stars": 132955,
+      "total_stars": 132956,
       "stars_recent": 673,
       "stars_prev": 121,
       "velocity": 96.1,
@@ -138,7 +138,7 @@
     },
     {
       "repo_name": "OpenBMB/VoxCPM",
-      "total_stars": 22911,
+      "total_stars": 22912,
       "stars_recent": 248,
       "stars_prev": 54,
       "velocity": 35.4,
@@ -164,7 +164,7 @@
     },
     {
       "repo_name": "anthropics/knowledge-work-plugins",
-      "total_stars": 18289,
+      "total_stars": 18290,
       "stars_recent": 380,
       "stars_prev": 106,
       "velocity": 54.3,
@@ -177,7 +177,7 @@
     },
     {
       "repo_name": "affaan-m/ECC",
-      "total_stars": 199508,
+      "total_stars": 199509,
       "stars_recent": 744,
       "stars_prev": 270,
       "velocity": 106.3,
@@ -294,7 +294,7 @@
     },
     {
       "repo_name": "rohitg00/ai-engineering-from-scratch",
-      "total_stars": 25282,
+      "total_stars": 25283,
       "stars_recent": 861,
       "stars_prev": 628,
       "velocity": 123.0,
@@ -321,11 +321,11 @@
     {
       "repo_name": "earendil-works/pi",
       "total_stars": 57872,
-      "stars_recent": 313,
+      "stars_recent": 312,
       "stars_prev": 245,
-      "velocity": 44.7,
-      "acceleration": 68,
-      "pct_change": 28,
+      "velocity": 44.6,
+      "acceleration": 67,
+      "pct_change": 27,
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
       "readme_summary": "pi.dev domain graciously donated by",
@@ -349,10 +349,10 @@
     {
       "repo_name": "colbymchenry/codegraph",
       "total_stars": 34588,
-      "stars_recent": 1162,
-      "stars_prev": 1504,
-      "velocity": 166.0,
-      "acceleration": -342,
+      "stars_recent": 1161,
+      "stars_prev": 1505,
+      "velocity": 165.9,
+      "acceleration": -344,
       "pct_change": -23,
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
@@ -387,7 +387,7 @@
     },
     {
       "repo_name": "rohitg00/ai-engineering-from-scratch",
-      "total_stars": 25282,
+      "total_stars": 25283,
       "stars_recent": 861,
       "stars_prev": 628,
       "velocity": 123.0,
@@ -400,7 +400,7 @@
     },
     {
       "repo_name": "affaan-m/ECC",
-      "total_stars": 199508,
+      "total_stars": 199509,
       "stars_recent": 744,
       "stars_prev": 270,
       "velocity": 106.3,
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 173949,
+      "total_stars": 173950,
       "stars_recent": 690,
       "stars_prev": 861,
       "velocity": 98.6,
@@ -439,7 +439,7 @@
     },
     {
       "repo_name": "microsoft/markitdown",
-      "total_stars": 132955,
+      "total_stars": 132956,
       "stars_recent": 673,
       "stars_prev": 121,
       "velocity": 96.1,
@@ -504,7 +504,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 85818,
+      "total_stars": 85820,
       "stars_recent": 472,
       "stars_prev": 481,
       "velocity": 67.4,
@@ -556,7 +556,7 @@
     },
     {
       "repo_name": "anthropics/knowledge-work-plugins",
-      "total_stars": 18289,
+      "total_stars": 18290,
       "stars_recent": 380,
       "stars_prev": 106,
       "velocity": 54.3,
@@ -582,7 +582,7 @@
     },
     {
       "repo_name": "ruvnet/RuView",
-      "total_stars": 69057,
+      "total_stars": 69058,
       "stars_recent": 335,
       "stars_prev": 497,
       "velocity": 47.9,
@@ -648,11 +648,11 @@
     {
       "repo_name": "earendil-works/pi",
       "total_stars": 57872,
-      "stars_recent": 313,
+      "stars_recent": 312,
       "stars_prev": 245,
-      "velocity": 44.7,
-      "acceleration": 68,
-      "pct_change": 28,
+      "velocity": 44.6,
+      "acceleration": 67,
+      "pct_change": 27,
       "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
       "language": "TypeScript",
       "readme_summary": "pi.dev domain graciously donated by",
