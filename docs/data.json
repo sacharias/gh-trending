@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T06:18:07+00:00",
+  "generated_at": "2026-06-02T06:18:41+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 22829,
+      "total_stars": 22830,
       "stars_recent": 904,
       "stars_prev": 0,
       "velocity": 129.1,
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "byoungd/English-level-up-tips",
-      "total_stars": 51105,
+      "total_stars": 51106,
       "stars_recent": 459,
       "stars_prev": 27,
       "velocity": 65.6,
@@ -73,7 +73,7 @@
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 77201,
+      "total_stars": 77202,
       "stars_recent": 1192,
       "stars_prev": 94,
       "velocity": 170.3,
@@ -99,7 +99,7 @@
     },
     {
       "repo_name": "OpenBMB/VoxCPM",
-      "total_stars": 24481,
+      "total_stars": 24482,
       "stars_recent": 339,
       "stars_prev": 50,
       "velocity": 48.4,
@@ -125,7 +125,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 31189,
+      "total_stars": 31190,
       "stars_recent": 704,
       "stars_prev": 192,
       "velocity": 100.6,
@@ -164,7 +164,7 @@
     },
     {
       "repo_name": "twentyhq/twenty",
-      "total_stars": 48915,
+      "total_stars": 48916,
       "stars_recent": 155,
       "stars_prev": 62,
       "velocity": 22.1,
@@ -190,7 +190,7 @@
     },
     {
       "repo_name": "codecrafters-io/build-your-own-x",
-      "total_stars": 510630,
+      "total_stars": 510632,
       "stars_recent": 408,
       "stars_prev": 213,
       "velocity": 58.3,
@@ -307,11 +307,11 @@
     },
     {
       "repo_name": "affaan-m/ECC",
-      "total_stars": 202531,
+      "total_stars": 202532,
       "stars_recent": 572,
-      "stars_prev": 590,
+      "stars_prev": 589,
       "velocity": 81.7,
-      "acceleration": -18,
+      "acceleration": -17,
       "pct_change": -3,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
@@ -335,7 +335,7 @@
   "highest_velocity": [
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 77201,
+      "total_stars": 77202,
       "stars_recent": 1192,
       "stars_prev": 94,
       "velocity": 170.3,
@@ -348,7 +348,7 @@
     },
     {
       "repo_name": "Lum1104/Understand-Anything",
-      "total_stars": 49189,
+      "total_stars": 49191,
       "stars_recent": 973,
       "stars_prev": 1887,
       "velocity": 139.0,
@@ -374,7 +374,7 @@
     },
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 22829,
+      "total_stars": 22830,
       "stars_recent": 904,
       "stars_prev": 0,
       "velocity": 129.1,
@@ -388,10 +388,10 @@
     {
       "repo_name": "colbymchenry/codegraph",
       "total_stars": 37130,
-      "stars_recent": 706,
-      "stars_prev": 1915,
-      "velocity": 100.9,
-      "acceleration": -1209,
+      "stars_recent": 705,
+      "stars_prev": 1916,
+      "velocity": 100.7,
+      "acceleration": -1211,
       "pct_change": -63,
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
@@ -400,7 +400,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 31189,
+      "total_stars": 31190,
       "stars_recent": 704,
       "stars_prev": 192,
       "velocity": 100.6,
@@ -413,11 +413,11 @@
     },
     {
       "repo_name": "affaan-m/ECC",
-      "total_stars": 202531,
+      "total_stars": 202532,
       "stars_recent": 572,
-      "stars_prev": 590,
+      "stars_prev": 589,
       "velocity": 81.7,
-      "acceleration": -18,
+      "acceleration": -17,
       "pct_change": -3,
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "multica-ai/andrej-karpathy-skills",
-      "total_stars": 165097,
+      "total_stars": 165098,
       "stars_recent": 560,
       "stars_prev": 1724,
       "velocity": 80.0,
@@ -439,7 +439,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 176302,
+      "total_stars": 176305,
       "stars_recent": 542,
       "stars_prev": 863,
       "velocity": 77.4,
@@ -466,10 +466,10 @@
     {
       "repo_name": "mattpocock/skills",
       "total_stars": 114446,
-      "stars_recent": 471,
-      "stars_prev": 983,
-      "velocity": 67.3,
-      "acceleration": -512,
+      "stars_recent": 470,
+      "stars_prev": 984,
+      "velocity": 67.1,
+      "acceleration": -514,
       "pct_change": -52,
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
@@ -478,7 +478,7 @@
     },
     {
       "repo_name": "byoungd/English-level-up-tips",
-      "total_stars": 51105,
+      "total_stars": 51106,
       "stars_recent": 459,
       "stars_prev": 27,
       "velocity": 65.6,
@@ -491,7 +491,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 88377,
+      "total_stars": 88378,
       "stars_recent": 448,
       "stars_prev": 474,
       "velocity": 64.0,
@@ -517,7 +517,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 215112,
+      "total_stars": 215113,
       "stars_recent": 434,
       "stars_prev": 777,
       "velocity": 62.0,
@@ -543,7 +543,7 @@
     },
     {
       "repo_name": "codecrafters-io/build-your-own-x",
-      "total_stars": 510630,
+      "total_stars": 510632,
       "stars_recent": 408,
       "stars_prev": 213,
       "velocity": 58.3,
@@ -556,7 +556,7 @@
     },
     {
       "repo_name": "OpenBMB/VoxCPM",
-      "total_stars": 24481,
+      "total_stars": 24482,
       "stars_recent": 339,
       "stars_prev": 50,
       "velocity": 48.4,
@@ -623,9 +623,9 @@
       "repo_name": "Imbad0202/academic-research-skills",
       "total_stars": 25844,
       "stars_recent": 271,
-      "stars_prev": 651,
+      "stars_prev": 650,
       "velocity": 38.7,
-      "acceleration": -380,
+      "acceleration": -379,
       "pct_change": -58,
       "description": "Academic Research Skills for Claude Code: research \u2192 write \u2192 review \u2192 revise \u2192 finalize",
       "language": "Python",
