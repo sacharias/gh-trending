@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T06:17:26+00:00",
+  "generated_at": "2026-06-03T06:17:57+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 35219,
+      "total_stars": 35220,
       "stars_recent": 1216,
       "stars_prev": 0,
       "velocity": 173.7,
@@ -16,7 +16,7 @@
       "pct_change": 9999,
       "description": "Self-hosted AI workspace. ",
       "language": "JavaScript",
-      "readme_summary": "Odysseus \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \u22b9 \u08ea \u02d6 \u0aee( \u02f6\u1d54 \u1d55 \u1d54\u02f6 )\u3063 Odysseus vers. 1.0 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+      "readme_summary": "Screenshots / clips Chat & Agents Deep Research Compare Documents Notes & Tasks",
       "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/main/README.md"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 7276,
+      "total_stars": 7279,
       "stars_recent": 192,
       "stars_prev": 13,
       "velocity": 27.4,
@@ -73,7 +73,7 @@
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 78260,
+      "total_stars": 78261,
       "stars_recent": 1165,
       "stars_prev": 146,
       "velocity": 166.4,
@@ -268,7 +268,7 @@
     },
     {
       "repo_name": "BigPizzaV3/CodexPlusPlus",
-      "total_stars": 11713,
+      "total_stars": 11714,
       "stars_recent": 302,
       "stars_prev": 296,
       "velocity": 43.1,
@@ -281,7 +281,7 @@
     },
     {
       "repo_name": "anthropics/skills",
-      "total_stars": 145777,
+      "total_stars": 145778,
       "stars_recent": 280,
       "stars_prev": 280,
       "velocity": 40.0,
@@ -294,7 +294,7 @@
     },
     {
       "repo_name": "pbakaus/impeccable",
-      "total_stars": 33678,
+      "total_stars": 33679,
       "stars_recent": 132,
       "stars_prev": 135,
       "velocity": 18.9,
@@ -307,7 +307,7 @@
     },
     {
       "repo_name": "D4Vinci/Scrapling",
-      "total_stars": 59422,
+      "total_stars": 59423,
       "stars_recent": 264,
       "stars_prev": 278,
       "velocity": 37.7,
@@ -320,7 +320,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 89742,
+      "total_stars": 89743,
       "stars_recent": 428,
       "stars_prev": 488,
       "velocity": 61.1,
@@ -328,14 +328,14 @@
       "pct_change": -12,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "readme_summary": "CC Switch The All-in-One Manager for Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent",
+      "readme_summary": "CC Switch The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent",
       "readme_url": "https://github.com/farion1231/cc-switch/blob/main/README.md"
     }
   ],
   "highest_velocity": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 35219,
+      "total_stars": 35220,
       "stars_recent": 1216,
       "stars_prev": 0,
       "velocity": 173.7,
@@ -343,12 +343,12 @@
       "pct_change": 9999,
       "description": "Self-hosted AI workspace. ",
       "language": "JavaScript",
-      "readme_summary": "Odysseus \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \u22b9 \u08ea \u02d6 \u0aee( \u02f6\u1d54 \u1d55 \u1d54\u02f6 )\u3063 Odysseus vers. 1.0 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+      "readme_summary": "Screenshots / clips Chat & Agents Deep Research Compare Documents Notes & Tasks",
       "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/main/README.md"
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 78260,
+      "total_stars": 78261,
       "stars_recent": 1165,
       "stars_prev": 146,
       "velocity": 166.4,
@@ -387,7 +387,7 @@
     },
     {
       "repo_name": "colbymchenry/codegraph",
-      "total_stars": 38393,
+      "total_stars": 38394,
       "stars_recent": 614,
       "stars_prev": 1969,
       "velocity": 87.7,
@@ -413,7 +413,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 177776,
+      "total_stars": 177777,
       "stars_recent": 511,
       "stars_prev": 889,
       "velocity": 73.0,
@@ -452,7 +452,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 89742,
+      "total_stars": 89743,
       "stars_recent": 428,
       "stars_prev": 488,
       "velocity": 61.1,
@@ -460,7 +460,7 @@
       "pct_change": -12,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
-      "readme_summary": "CC Switch The All-in-One Manager for Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent",
+      "readme_summary": "CC Switch The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent",
       "readme_url": "https://github.com/farion1231/cc-switch/blob/main/README.md"
     },
     {
@@ -478,7 +478,7 @@
     },
     {
       "repo_name": "mattpocock/skills",
-      "total_stars": 115502,
+      "total_stars": 115504,
       "stars_recent": 418,
       "stars_prev": 916,
       "velocity": 59.7,
@@ -543,7 +543,7 @@
     },
     {
       "repo_name": "esengine/DeepSeek-Reasonix",
-      "total_stars": 16931,
+      "total_stars": 16932,
       "stars_recent": 353,
       "stars_prev": 478,
       "velocity": 50.4,
@@ -564,12 +564,12 @@
       "pct_change": -71,
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "readme_summary": "84% of students already use AI tools. Only 18% feel prepared to use them professionally. This curriculum closes that gap. 485 lessons. 20 phases. 320 hours. Python, TypeScript, Rust, Julia. Every lesson ships a reusable artifact: a prompt, a skill, an agent...",
+      "readme_summary": "84% of students already use AI tools. Only 18% feel prepared to use them professionally. This curriculum closes that gap. 503 lessons. 20 phases. 320 hours. Python, TypeScript, Rust, Julia. Every lesson ships a reusable artifact: a prompt, a skill, an agent...",
       "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.md"
     },
     {
       "repo_name": "BigPizzaV3/CodexPlusPlus",
-      "total_stars": 11713,
+      "total_stars": 11714,
       "stars_recent": 302,
       "stars_prev": 296,
       "velocity": 43.1,
@@ -582,7 +582,7 @@
     },
     {
       "repo_name": "nexu-io/open-design",
-      "total_stars": 57764,
+      "total_stars": 57765,
       "stars_recent": 294,
       "stars_prev": 515,
       "velocity": 42.0,
@@ -590,12 +590,12 @@
       "pct_change": -43,
       "description": "\ud83c\udfa8 Local-first, open-source Claude Design alternative. \ud83d\udda5\ufe0f Native desktop app. \u26a1 259+ Skills \u00b7 \u2728 142+ Design Systems \ud83d\uddbc\ufe0f Web \u00b7 desktop \u00b7 mobile prototypes \u00b7 slides \u00b7 images \u00b7 videos \u00b7 HyperFrames \ud83d\udce6 Sandboxed preview \u00b7 HTML/PDF/PPTX/MP4 export \ud83e\udd16 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "language": "TypeScript",
-      "readme_summary": "Open Design \u2014 the open-source Claude Design alternative Open Design is the open-source, local-first alternative to [Claude Design][cd]. Web-deployable, BYOK at every layer \u2014 16 coding-agent CLIs auto-detected on your PATH (Claude Code, Codex, Devin for...",
+      "readme_summary": "English \u00b7 Espa\u00f1ol \u00b7 Portugu\u00eas \u00b7 Deutsch \u00b7 Fran\u00e7ais \u00b7 \u7b80\u4f53\u4e2d\u6587 \u00b7 \u7e41\u9ad4\u4e2d\u6587 \u00b7 \ud55c\uad6d\uc5b4 \u00b7 \u65e5\u672c\u8a9e \u00b7 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u00b7 \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u00b7 \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u00b7 T\u00fcrk\u00e7e",
       "readme_url": "https://github.com/nexu-io/open-design/blob/main/README.md"
     },
     {
       "repo_name": "anthropics/skills",
-      "total_stars": 145777,
+      "total_stars": 145778,
       "stars_recent": 280,
       "stars_prev": 280,
       "velocity": 40.0,
@@ -621,7 +621,7 @@
     },
     {
       "repo_name": "D4Vinci/Scrapling",
-      "total_stars": 59422,
+      "total_stars": 59423,
       "stars_recent": 264,
       "stars_prev": 278,
       "velocity": 37.7,
