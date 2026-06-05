@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T06:17:31+00:00",
+  "generated_at": "2026-06-05T06:17:59+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 52222,
+      "total_stars": 52223,
       "stars_recent": 1657,
       "stars_prev": 0,
       "velocity": 236.7,
@@ -17,7 +17,7 @@
       "description": "Self-hosted AI workspace. ",
       "language": "Python",
       "readme_summary": "Screenshots / clips Chat & Agents Deep Research Compare Documents Notes & Tasks",
-      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/main/README.md"
+      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md"
     },
     {
       "repo_name": "chopratejas/headroom",
@@ -29,7 +29,7 @@
       "pct_change": 2577,
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "readme_summary": "60\u201395% fewer tokens \u00b7 library \u00b7 proxy \u00b7 MCP \u00b7 6 algorithms \u00b7 local-first \u00b7 reversible",
+      "readme_summary": "\u2588\u2588\u2557 \u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557 \u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255d\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2551 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2588\u2588\u2588\u2588\u2554\u2588\u2588\u2551 \u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u255d \u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2551...",
       "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "repo_name": "codecrafters-io/build-your-own-x",
-      "total_stars": 511981,
+      "total_stars": 511982,
       "stars_recent": 354,
       "stars_prev": 266,
       "velocity": 50.6,
@@ -151,7 +151,7 @@
     },
     {
       "repo_name": "heygen-com/hyperframes",
-      "total_stars": 24459,
+      "total_stars": 24460,
       "stars_recent": 141,
       "stars_prev": 136,
       "velocity": 20.1,
@@ -203,7 +203,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 92025,
+      "total_stars": 92026,
       "stars_recent": 393,
       "stars_prev": 493,
       "velocity": 56.1,
@@ -216,7 +216,7 @@
     },
     {
       "repo_name": "sindresorhus/awesome",
-      "total_stars": 473028,
+      "total_stars": 473029,
       "stars_recent": 154,
       "stars_prev": 197,
       "velocity": 22.0,
@@ -229,7 +229,7 @@
     },
     {
       "repo_name": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "total_stars": 87528,
+      "total_stars": 87529,
       "stars_recent": 172,
       "stars_prev": 224,
       "velocity": 24.6,
@@ -335,7 +335,7 @@
   "highest_velocity": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 52222,
+      "total_stars": 52223,
       "stars_recent": 1657,
       "stars_prev": 0,
       "velocity": 236.7,
@@ -344,7 +344,7 @@
       "description": "Self-hosted AI workspace. ",
       "language": "Python",
       "readme_summary": "Screenshots / clips Chat & Agents Deep Research Compare Documents Notes & Tasks",
-      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/main/README.md"
+      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md"
     },
     {
       "repo_name": "microsoft/markitdown",
@@ -374,7 +374,7 @@
     },
     {
       "repo_name": "colbymchenry/codegraph",
-      "total_stars": 41404,
+      "total_stars": 41405,
       "stars_recent": 499,
       "stars_prev": 1697,
       "velocity": 71.3,
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 92025,
+      "total_stars": 92026,
       "stars_recent": 393,
       "stars_prev": 493,
       "velocity": 56.1,
@@ -452,7 +452,7 @@
     },
     {
       "repo_name": "codecrafters-io/build-your-own-x",
-      "total_stars": 511981,
+      "total_stars": 511982,
       "stars_recent": 354,
       "stars_prev": 266,
       "velocity": 50.6,
@@ -486,12 +486,12 @@
       "pct_change": 2577,
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "readme_summary": "60\u201395% fewer tokens \u00b7 library \u00b7 proxy \u00b7 MCP \u00b7 6 algorithms \u00b7 local-first \u00b7 reversible",
+      "readme_summary": "\u2588\u2588\u2557 \u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2557 \u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255d\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2551 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2588\u2588\u2588\u2588\u2554\u2588\u2588\u2551 \u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u255d \u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2551 \u2588\u2588\u2551\u2588\u2588\u2551...",
       "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md"
     },
     {
       "repo_name": "mattpocock/skills",
-      "total_stars": 117923,
+      "total_stars": 117924,
       "stars_recent": 339,
       "stars_prev": 830,
       "velocity": 48.4,
@@ -504,7 +504,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 218220,
+      "total_stars": 218221,
       "stars_recent": 327,
       "stars_prev": 729,
       "velocity": 46.7,
