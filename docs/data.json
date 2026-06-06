@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T06:18:03+00:00",
+  "generated_at": "2026-06-06T06:18:33+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 56291,
+      "total_stars": 56293,
       "stars_recent": 1858,
       "stars_prev": 0,
       "velocity": 265.4,
@@ -34,7 +34,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 14746,
+      "total_stars": 14748,
       "stars_recent": 404,
       "stars_prev": 12,
       "velocity": 57.7,
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "nesquena/hermes-webui",
-      "total_stars": 13554,
+      "total_stars": 13555,
       "stars_recent": 196,
       "stars_prev": 81,
       "velocity": 28.0,
@@ -99,7 +99,7 @@
     },
     {
       "repo_name": "greensock/gsap-skills",
-      "total_stars": 8179,
+      "total_stars": 8180,
       "stars_recent": 130,
       "stars_prev": 120,
       "velocity": 18.6,
@@ -112,7 +112,7 @@
     },
     {
       "repo_name": "heygen-com/hyperframes",
-      "total_stars": 24746,
+      "total_stars": 24747,
       "stars_recent": 140,
       "stars_prev": 132,
       "velocity": 20.0,
@@ -126,11 +126,11 @@
     {
       "repo_name": "codecrafters-io/build-your-own-x",
       "total_stars": 512295,
-      "stars_recent": 316,
+      "stars_recent": 315,
       "stars_prev": 302,
-      "velocity": 45.1,
-      "acceleration": 14,
-      "pct_change": 5,
+      "velocity": 45.0,
+      "acceleration": 13,
+      "pct_change": 4,
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
       "readme_summary": "This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. What I cannot create, I do not understand \u2014 Richard Feynman.",
@@ -164,11 +164,11 @@
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 80045,
-      "stars_recent": 626,
-      "stars_prev": 737,
-      "velocity": 89.4,
-      "acceleration": -111,
+      "total_stars": 80046,
+      "stars_recent": 625,
+      "stars_prev": 738,
+      "velocity": 89.3,
+      "acceleration": -113,
       "pct_change": -15,
       "description": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
       "language": "Python",
@@ -177,7 +177,7 @@
     },
     {
       "repo_name": "sindresorhus/awesome",
-      "total_stars": 473291,
+      "total_stars": 473292,
       "stars_recent": 158,
       "stars_prev": 190,
       "velocity": 22.6,
@@ -192,9 +192,9 @@
       "repo_name": "farion1231/cc-switch",
       "total_stars": 92834,
       "stars_recent": 380,
-      "stars_prev": 469,
+      "stars_prev": 468,
       "velocity": 54.3,
-      "acceleration": -89,
+      "acceleration": -88,
       "pct_change": -19,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
@@ -215,19 +215,6 @@
       "readme_url": "https://github.com/BigPizzaV3/CodexPlusPlus/blob/main/README.md"
     },
     {
-      "repo_name": "anthropics/claude-code",
-      "total_stars": 130491,
-      "stars_recent": 143,
-      "stars_prev": 184,
-      "velocity": 20.4,
-      "acceleration": -41,
-      "pct_change": -22,
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Python",
-      "readme_summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your...",
-      "readme_url": "https://github.com/anthropics/claude-code/blob/main/README.md"
-    },
-    {
       "repo_name": "microsoft/SkillOpt",
       "total_stars": 5092,
       "stars_recent": 131,
@@ -239,6 +226,19 @@
       "language": "Python",
       "readme_summary": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
       "readme_url": "https://github.com/microsoft/SkillOpt/blob/main/README.md"
+    },
+    {
+      "repo_name": "anthropics/claude-code",
+      "total_stars": 130491,
+      "stars_recent": 142,
+      "stars_prev": 185,
+      "velocity": 20.3,
+      "acceleration": -43,
+      "pct_change": -23,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "readme_summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your...",
+      "readme_url": "https://github.com/anthropics/claude-code/blob/main/README.md"
     },
     {
       "repo_name": "public-apis/public-apis",
@@ -255,7 +255,7 @@
     },
     {
       "repo_name": "TauricResearch/TradingAgents",
-      "total_stars": 83213,
+      "total_stars": 83215,
       "stars_recent": 129,
       "stars_prev": 174,
       "velocity": 18.4,
@@ -335,7 +335,7 @@
   "highest_velocity": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 56291,
+      "total_stars": 56293,
       "stars_recent": 1858,
       "stars_prev": 0,
       "velocity": 265.4,
@@ -361,11 +361,11 @@
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 80045,
-      "stars_recent": 626,
-      "stars_prev": 737,
-      "velocity": 89.4,
-      "acceleration": -111,
+      "total_stars": 80046,
+      "stars_recent": 625,
+      "stars_prev": 738,
+      "velocity": 89.3,
+      "acceleration": -113,
       "pct_change": -15,
       "description": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
       "language": "Python",
@@ -374,7 +374,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 183602,
+      "total_stars": 183606,
       "stars_recent": 502,
       "stars_prev": 771,
       "velocity": 71.7,
@@ -387,7 +387,7 @@
     },
     {
       "repo_name": "colbymchenry/codegraph",
-      "total_stars": 42520,
+      "total_stars": 42521,
       "stars_recent": 455,
       "stars_prev": 1557,
       "velocity": 65.0,
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 14746,
+      "total_stars": 14748,
       "stars_recent": 404,
       "stars_prev": 12,
       "velocity": 57.7,
@@ -441,9 +441,9 @@
       "repo_name": "farion1231/cc-switch",
       "total_stars": 92834,
       "stars_recent": 380,
-      "stars_prev": 469,
+      "stars_prev": 468,
       "velocity": 54.3,
-      "acceleration": -89,
+      "acceleration": -88,
       "pct_change": -19,
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "language": "Rust",
@@ -452,7 +452,7 @@
     },
     {
       "repo_name": "multica-ai/andrej-karpathy-skills",
-      "total_stars": 168890,
+      "total_stars": 168891,
       "stars_recent": 348,
       "stars_prev": 1275,
       "velocity": 49.7,
@@ -465,7 +465,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 34295,
+      "total_stars": 34296,
       "stars_recent": 338,
       "stars_prev": 651,
       "velocity": 48.3,
@@ -505,11 +505,11 @@
     {
       "repo_name": "codecrafters-io/build-your-own-x",
       "total_stars": 512295,
-      "stars_recent": 316,
+      "stars_recent": 315,
       "stars_prev": 302,
-      "velocity": 45.1,
-      "acceleration": 14,
-      "pct_change": 5,
+      "velocity": 45.0,
+      "acceleration": 13,
+      "pct_change": 4,
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "language": "Markdown",
       "readme_summary": "This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. What I cannot create, I do not understand \u2014 Richard Feynman.",
@@ -621,7 +621,7 @@
     },
     {
       "repo_name": "nexu-io/open-design",
-      "total_stars": 59562,
+      "total_stars": 59563,
       "stars_recent": 197,
       "stars_prev": 455,
       "velocity": 28.1,
@@ -634,7 +634,7 @@
     },
     {
       "repo_name": "nesquena/hermes-webui",
-      "total_stars": 13554,
+      "total_stars": 13555,
       "stars_recent": 196,
       "stars_prev": 81,
       "velocity": 28.0,
