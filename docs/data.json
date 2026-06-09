@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T06:17:52+00:00",
+  "generated_at": "2026-06-09T06:18:15+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "mvanhorn/last30days-skill",
-      "total_stars": 35282,
+      "total_stars": 35285,
       "stars_recent": 472,
       "stars_prev": 25,
       "velocity": 67.4,
@@ -60,7 +60,7 @@
     },
     {
       "repo_name": "roboflow/supervision",
-      "total_stars": 42499,
+      "total_stars": 42500,
       "stars_recent": 200,
       "stars_prev": 12,
       "velocity": 28.6,
@@ -86,7 +86,7 @@
     },
     {
       "repo_name": "Panniantong/Agent-Reach",
-      "total_stars": 24624,
+      "total_stars": 24628,
       "stars_recent": 219,
       "stars_prev": 33,
       "velocity": 31.3,
@@ -99,7 +99,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 19269,
+      "total_stars": 19270,
       "stars_recent": 580,
       "stars_prev": 98,
       "velocity": 82.9,
@@ -125,7 +125,7 @@
     },
     {
       "repo_name": "RyanCodrai/turbovec",
-      "total_stars": 9274,
+      "total_stars": 9275,
       "stars_recent": 322,
       "stars_prev": 90,
       "velocity": 46.0,
@@ -151,7 +151,7 @@
     },
     {
       "repo_name": "santifer/career-ops",
-      "total_stars": 50783,
+      "total_stars": 50784,
       "stars_recent": 151,
       "stars_prev": 53,
       "velocity": 21.6,
@@ -164,7 +164,7 @@
     },
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 64185,
+      "total_stars": 64186,
       "stars_recent": 1480,
       "stars_prev": 915,
       "velocity": 211.4,
@@ -216,7 +216,7 @@
     },
     {
       "repo_name": "pbakaus/impeccable",
-      "total_stars": 36405,
+      "total_stars": 36406,
       "stars_recent": 137,
       "stars_prev": 127,
       "velocity": 19.6,
@@ -229,7 +229,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 187782,
+      "total_stars": 187783,
       "stars_recent": 516,
       "stars_prev": 542,
       "velocity": 73.7,
@@ -255,7 +255,7 @@
     },
     {
       "repo_name": "heygen-com/hyperframes",
-      "total_stars": 25836,
+      "total_stars": 25837,
       "stars_recent": 135,
       "stars_prev": 150,
       "velocity": 19.3,
@@ -265,19 +265,6 @@
       "language": "TypeScript",
       "readme_summary": "Write HTML. Render video. Built for agents.",
       "readme_url": "https://github.com/heygen-com/hyperframes/blob/main/README.md"
-    },
-    {
-      "repo_name": "yt-dlp/yt-dlp",
-      "total_stars": 169341,
-      "stars_recent": 95,
-      "stars_prev": 107,
-      "velocity": 13.6,
-      "acceleration": -12,
-      "pct_change": -11,
-      "description": "A feature-rich command-line audio/video downloader",
-      "language": "Python",
-      "readme_summary": "a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc.",
-      "readme_url": "https://github.com/yt-dlp/yt-dlp/blob/master/README.md"
     },
     {
       "repo_name": "helloianneo/ian-xiaohei-illustrations",
@@ -291,6 +278,19 @@
       "language": "",
       "readme_summary": "Ian Xiaohei Illustrations \u662f\u4e00\u4e2a Codex Skill\uff0c\u7528\u6765\u6307\u5bfc AI Agent \u4e3a\u4e2d\u6587\u6587\u7ae0\u3001\u5e16\u5b50\u3001\u535a\u5ba2\u3001Notion \u6587\u6863\u548c\u65b9\u6cd5\u8bba\u5185\u5bb9\u751f\u6210\u6b63\u6587\u914d\u56fe\u3002",
       "readme_url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/README.md"
+    },
+    {
+      "repo_name": "yt-dlp/yt-dlp",
+      "total_stars": 169341,
+      "stars_recent": 94,
+      "stars_prev": 108,
+      "velocity": 13.4,
+      "acceleration": -14,
+      "pct_change": -13,
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "readme_summary": "a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc.",
+      "readme_url": "https://github.com/yt-dlp/yt-dlp/blob/master/README.md"
     },
     {
       "repo_name": "openai/codex",
@@ -335,7 +335,7 @@
   "highest_velocity": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 64185,
+      "total_stars": 64186,
       "stars_recent": 1480,
       "stars_prev": 915,
       "velocity": 211.4,
@@ -348,7 +348,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 19269,
+      "total_stars": 19270,
       "stars_recent": 580,
       "stars_prev": 98,
       "velocity": 82.9,
@@ -361,7 +361,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 187782,
+      "total_stars": 187783,
       "stars_recent": 516,
       "stars_prev": 542,
       "velocity": 73.7,
@@ -374,7 +374,7 @@
     },
     {
       "repo_name": "mvanhorn/last30days-skill",
-      "total_stars": 35282,
+      "total_stars": 35285,
       "stars_recent": 472,
       "stars_prev": 25,
       "velocity": 67.4,
@@ -387,7 +387,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 38792,
+      "total_stars": 38791,
       "stars_recent": 454,
       "stars_prev": 704,
       "velocity": 64.9,
@@ -413,11 +413,11 @@
     },
     {
       "repo_name": "colbymchenry/codegraph",
-      "total_stars": 45148,
+      "total_stars": 45149,
       "stars_recent": 377,
-      "stars_prev": 707,
+      "stars_prev": 705,
       "velocity": 53.9,
-      "acceleration": -330,
+      "acceleration": -328,
       "pct_change": -47,
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "mattpocock/skills",
-      "total_stars": 122115,
+      "total_stars": 122118,
       "stars_recent": 339,
       "stars_prev": 471,
       "velocity": 48.4,
@@ -439,7 +439,7 @@
     },
     {
       "repo_name": "affaan-m/ECC",
-      "total_stars": 211116,
+      "total_stars": 211117,
       "stars_recent": 336,
       "stars_prev": 573,
       "velocity": 48.0,
@@ -465,7 +465,7 @@
     },
     {
       "repo_name": "RyanCodrai/turbovec",
-      "total_stars": 9274,
+      "total_stars": 9275,
       "stars_recent": 322,
       "stars_prev": 90,
       "velocity": 46.0,
@@ -480,9 +480,9 @@
       "repo_name": "obra/superpowers",
       "total_stars": 221678,
       "stars_recent": 318,
-      "stars_prev": 437,
+      "stars_prev": 436,
       "velocity": 45.4,
-      "acceleration": -119,
+      "acceleration": -118,
       "pct_change": -27,
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
@@ -504,7 +504,7 @@
     },
     {
       "repo_name": "multica-ai/andrej-karpathy-skills",
-      "total_stars": 171542,
+      "total_stars": 171544,
       "stars_recent": 310,
       "stars_prev": 561,
       "velocity": 44.3,
@@ -517,7 +517,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 95529,
+      "total_stars": 95532,
       "stars_recent": 308,
       "stars_prev": 449,
       "velocity": 44.0,
@@ -530,7 +530,7 @@
     },
     {
       "repo_name": "Lum1104/Understand-Anything",
-      "total_stars": 55434,
+      "total_stars": 55435,
       "stars_recent": 276,
       "stars_prev": 974,
       "velocity": 39.4,
@@ -569,7 +569,7 @@
     },
     {
       "repo_name": "harry0703/MoneyPrinterTurbo",
-      "total_stars": 82404,
+      "total_stars": 82406,
       "stars_recent": 240,
       "stars_prev": 1192,
       "velocity": 34.3,
@@ -608,7 +608,7 @@
     },
     {
       "repo_name": "Panniantong/Agent-Reach",
-      "total_stars": 24624,
+      "total_stars": 24628,
       "stars_recent": 219,
       "stars_prev": 33,
       "velocity": 31.3,
@@ -647,7 +647,7 @@
     },
     {
       "repo_name": "roboflow/supervision",
-      "total_stars": 42499,
+      "total_stars": 42500,
       "stars_recent": 200,
       "stars_prev": 12,
       "velocity": 28.6,
