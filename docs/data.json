@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T06:18:07+00:00",
+  "generated_at": "2026-06-10T06:18:36+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "mvanhorn/last30days-skill",
-      "total_stars": 37953,
+      "total_stars": 37955,
       "stars_recent": 545,
       "stars_prev": 23,
       "velocity": 77.9,
@@ -112,7 +112,7 @@
     },
     {
       "repo_name": "RyanCodrai/turbovec",
-      "total_stars": 10410,
+      "total_stars": 10411,
       "stars_recent": 350,
       "stars_prev": 81,
       "velocity": 50.0,
@@ -151,7 +151,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 20901,
+      "total_stars": 20903,
       "stars_recent": 521,
       "stars_prev": 194,
       "velocity": 74.4,
@@ -202,19 +202,6 @@
       "readme_url": "https://github.com/pbakaus/impeccable/blob/main/README.md"
     },
     {
-      "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 65846,
-      "stars_recent": 1206,
-      "stars_prev": 1222,
-      "velocity": 172.3,
-      "acceleration": -16,
-      "pct_change": -1,
-      "description": "Self-hosted AI workspace. ",
-      "language": "Python",
-      "readme_summary": "Odysseus Branch note: dev is the default branch and contains the latest development changes, but it may be unstable. For the more stable curated branch, use main.",
-      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md"
-    },
-    {
       "repo_name": "TauricResearch/TradingAgents",
       "total_stars": 84842,
       "stars_recent": 142,
@@ -226,6 +213,19 @@
       "language": "Python",
       "readme_summary": "--- TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-05] TradingAgents v0.2.5 released with the grounded Sentiment Analyst, GPT-5.5 etc. model coverage, Qwen/GLM/MiniMax dual-region support, TRADINGAGENTS env-var configurability with...",
       "readme_url": "https://github.com/TauricResearch/TradingAgents/blob/main/README.md"
+    },
+    {
+      "repo_name": "pewdiepie-archdaemon/odysseus",
+      "total_stars": 65847,
+      "stars_recent": 1204,
+      "stars_prev": 1224,
+      "velocity": 172.0,
+      "acceleration": -20,
+      "pct_change": -2,
+      "description": "Self-hosted AI workspace. ",
+      "language": "Python",
+      "readme_summary": "Odysseus Branch note: dev is the default branch and contains the latest development changes, but it may be unstable. For the more stable curated branch, use main.",
+      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md"
     },
     {
       "repo_name": "NousResearch/hermes-agent",
@@ -320,7 +320,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 222703,
+      "total_stars": 222704,
       "stars_recent": 312,
       "stars_prev": 395,
       "velocity": 44.6,
@@ -335,12 +335,12 @@
   "highest_velocity": [
     {
       "repo_name": "pewdiepie-archdaemon/odysseus",
-      "total_stars": 65846,
-      "stars_recent": 1206,
-      "stars_prev": 1222,
-      "velocity": 172.3,
-      "acceleration": -16,
-      "pct_change": -1,
+      "total_stars": 65847,
+      "stars_recent": 1204,
+      "stars_prev": 1224,
+      "velocity": 172.0,
+      "acceleration": -20,
+      "pct_change": -2,
       "description": "Self-hosted AI workspace. ",
       "language": "Python",
       "readme_summary": "Odysseus Branch note: dev is the default branch and contains the latest development changes, but it may be unstable. For the more stable curated branch, use main.",
@@ -348,7 +348,7 @@
     },
     {
       "repo_name": "mvanhorn/last30days-skill",
-      "total_stars": 37953,
+      "total_stars": 37955,
       "stars_recent": 545,
       "stars_prev": 23,
       "velocity": 77.9,
@@ -361,7 +361,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 20901,
+      "total_stars": 20903,
       "stars_recent": 521,
       "stars_prev": 194,
       "velocity": 74.4,
@@ -413,7 +413,7 @@
     },
     {
       "repo_name": "RyanCodrai/turbovec",
-      "total_stars": 10410,
+      "total_stars": 10411,
       "stars_recent": 350,
       "stars_prev": 81,
       "velocity": 50.0,
@@ -426,7 +426,7 @@
     },
     {
       "repo_name": "microsoft/markitdown",
-      "total_stars": 149580,
+      "total_stars": 149582,
       "stars_recent": 347,
       "stars_prev": 1021,
       "velocity": 49.6,
@@ -491,7 +491,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 222703,
+      "total_stars": 222704,
       "stars_recent": 312,
       "stars_prev": 395,
       "velocity": 44.6,
@@ -504,7 +504,7 @@
     },
     {
       "repo_name": "farion1231/cc-switch",
-      "total_stars": 96713,
+      "total_stars": 96715,
       "stars_recent": 307,
       "stars_prev": 429,
       "velocity": 43.9,
@@ -517,7 +517,7 @@
     },
     {
       "repo_name": "multica-ai/andrej-karpathy-skills",
-      "total_stars": 172291,
+      "total_stars": 172293,
       "stars_recent": 298,
       "stars_prev": 488,
       "velocity": 42.6,
@@ -595,11 +595,11 @@
     },
     {
       "repo_name": "Lum1104/Understand-Anything",
-      "total_stars": 56113,
-      "stars_recent": 235,
-      "stars_prev": 778,
-      "velocity": 33.6,
-      "acceleration": -543,
+      "total_stars": 56114,
+      "stars_recent": 234,
+      "stars_prev": 779,
+      "velocity": 33.4,
+      "acceleration": -545,
       "pct_change": -70,
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
@@ -647,7 +647,7 @@
     },
     {
       "repo_name": "nexu-io/open-design",
-      "total_stars": 62542,
+      "total_stars": 62543,
       "stars_recent": 203,
       "stars_prev": 294,
       "velocity": 29.0,
