@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T06:17:23+00:00",
+  "generated_at": "2026-06-12T06:17:50+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -47,7 +47,7 @@
     },
     {
       "repo_name": "Panniantong/Agent-Reach",
-      "total_stars": 26463,
+      "total_stars": 26464,
       "stars_recent": 252,
       "stars_prev": 25,
       "velocity": 36.0,
@@ -125,7 +125,7 @@
     },
     {
       "repo_name": "alibaba/open-code-review",
-      "total_stars": 6318,
+      "total_stars": 6319,
       "stars_recent": 254,
       "stars_prev": 77,
       "velocity": 36.3,
@@ -177,7 +177,7 @@
     },
     {
       "repo_name": "msitarzewski/agency-agents",
-      "total_stars": 111801,
+      "total_stars": 111802,
       "stars_recent": 158,
       "stars_prev": 101,
       "velocity": 22.6,
@@ -190,7 +190,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 41762,
+      "total_stars": 41763,
       "stars_recent": 470,
       "stars_prev": 361,
       "velocity": 67.1,
@@ -203,7 +203,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 23524,
+      "total_stars": 23525,
       "stars_recent": 438,
       "stars_prev": 348,
       "velocity": 62.6,
@@ -242,7 +242,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 191254,
+      "total_stars": 191255,
       "stars_recent": 461,
       "stars_prev": 461,
       "velocity": 65.9,
@@ -307,7 +307,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 225168,
+      "total_stars": 225169,
       "stars_recent": 302,
       "stars_prev": 327,
       "velocity": 43.1,
@@ -361,7 +361,7 @@
     },
     {
       "repo_name": "Leonxlnx/taste-skill",
-      "total_stars": 41762,
+      "total_stars": 41763,
       "stars_recent": 470,
       "stars_prev": 361,
       "velocity": 67.1,
@@ -374,7 +374,7 @@
     },
     {
       "repo_name": "NousResearch/hermes-agent",
-      "total_stars": 191254,
+      "total_stars": 191255,
       "stars_recent": 461,
       "stars_prev": 461,
       "velocity": 65.9,
@@ -387,7 +387,7 @@
     },
     {
       "repo_name": "chopratejas/headroom",
-      "total_stars": 23524,
+      "total_stars": 23525,
       "stars_recent": 438,
       "stars_prev": 348,
       "velocity": 62.6,
@@ -465,7 +465,7 @@
     },
     {
       "repo_name": "obra/superpowers",
-      "total_stars": 225168,
+      "total_stars": 225169,
       "stars_recent": 302,
       "stars_prev": 327,
       "velocity": 43.1,
@@ -543,7 +543,7 @@
     },
     {
       "repo_name": "alibaba/open-code-review",
-      "total_stars": 6318,
+      "total_stars": 6319,
       "stars_recent": 254,
       "stars_prev": 77,
       "velocity": 36.3,
@@ -556,7 +556,7 @@
     },
     {
       "repo_name": "Panniantong/Agent-Reach",
-      "total_stars": 26463,
+      "total_stars": 26464,
       "stars_recent": 252,
       "stars_prev": 25,
       "velocity": 36.0,
@@ -634,7 +634,7 @@
     },
     {
       "repo_name": "Lum1104/Understand-Anything",
-      "total_stars": 57658,
+      "total_stars": 57659,
       "stars_recent": 191,
       "stars_prev": 484,
       "velocity": 27.3,
