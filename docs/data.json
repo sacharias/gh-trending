@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T07:13:40+00:00",
+  "generated_at": "2026-07-16T07:21:58+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "re4/LibreCode",
-      "total_stars": 74,
+      "total_stars": 73,
       "stars_recent": 696,
       "stars_prev": 0,
       "velocity": 99.4,
@@ -18,25 +18,12 @@
       "language": "C#",
       "readme_summary": "A free, open-source AI-powered code editor built from the ground up with .NET 10 and Avalonia UI. Runs natively on Windows, Linux, and macOS -- no Electron, no web views, just fast native rendering.",
       "readme_url": "https://github.com/re4/LibreCode/blob/main/README.md"
-    },
-    {
-      "repo_name": "usestrix/strix",
-      "total_stars": 41629,
-      "stars_recent": 9,
-      "stars_prev": 215,
-      "velocity": 1.3,
-      "acceleration": -206,
-      "pct_change": -96,
-      "description": "Open-source AI penetration testing tool to find and fix your app\u2019s vulnerabilities.",
-      "language": "Python",
-      "readme_summary": "Strix The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app\u2019s vulnerabilities.",
-      "readme_url": "https://github.com/usestrix/strix/blob/main/README.md"
     }
   ],
   "highest_velocity": [
     {
       "repo_name": "re4/LibreCode",
-      "total_stars": 74,
+      "total_stars": 73,
       "stars_recent": 696,
       "stars_prev": 0,
       "velocity": 99.4,
@@ -46,19 +33,6 @@
       "language": "C#",
       "readme_summary": "A free, open-source AI-powered code editor built from the ground up with .NET 10 and Avalonia UI. Runs natively on Windows, Linux, and macOS -- no Electron, no web views, just fast native rendering.",
       "readme_url": "https://github.com/re4/LibreCode/blob/main/README.md"
-    },
-    {
-      "repo_name": "usestrix/strix",
-      "total_stars": 41629,
-      "stars_recent": 9,
-      "stars_prev": 215,
-      "velocity": 1.3,
-      "acceleration": -206,
-      "pct_change": -96,
-      "description": "Open-source AI penetration testing tool to find and fix your app\u2019s vulnerabilities.",
-      "language": "Python",
-      "readme_summary": "Strix The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app\u2019s vulnerabilities.",
-      "readme_url": "https://github.com/usestrix/strix/blob/main/README.md"
     }
   ]
 }
