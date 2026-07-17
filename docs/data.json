@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T07:21:58+00:00",
+  "generated_at": "2026-07-17T07:16:02+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,7 +8,7 @@
   "fastest_rising": [
     {
       "repo_name": "re4/LibreCode",
-      "total_stars": 73,
+      "total_stars": 75,
       "stars_recent": 696,
       "stars_prev": 0,
       "velocity": 99.4,
@@ -23,7 +23,7 @@
   "highest_velocity": [
     {
       "repo_name": "re4/LibreCode",
-      "total_stars": 73,
+      "total_stars": 75,
       "stars_recent": 696,
       "stars_prev": 0,
       "velocity": 99.4,
