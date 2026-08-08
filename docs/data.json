@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T07:26:03+00:00",
+  "generated_at": "2026-08-08T05:42:05+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -7,32 +7,32 @@
   "top": 25,
   "fastest_rising": [
     {
-      "repo_name": "re4/LibreCode",
-      "total_stars": 75,
-      "stars_recent": 696,
+      "repo_name": "PrimeIntellect-ai/prime-agent",
+      "total_stars": 6963,
+      "stars_recent": 200,
       "stars_prev": 0,
-      "velocity": 99.4,
-      "acceleration": 696,
+      "velocity": 28.6,
+      "acceleration": 200,
       "pct_change": 9999,
-      "description": "LibreCode - A Ollama cursor like coding / Reversing Interface",
-      "language": "C#",
-      "readme_summary": "A free, open-source AI-powered code editor built from the ground up with .NET 10 and Avalonia UI. Runs natively on Windows, Linux, and macOS -- no Electron, no web views, just fast native rendering.",
-      "readme_url": "https://github.com/re4/LibreCode/blob/main/README.md"
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "readme_summary": "Prime Agent: A Self-Improving RLM Agent",
+      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md"
     }
   ],
   "highest_velocity": [
     {
-      "repo_name": "re4/LibreCode",
-      "total_stars": 75,
-      "stars_recent": 696,
+      "repo_name": "PrimeIntellect-ai/prime-agent",
+      "total_stars": 6963,
+      "stars_recent": 200,
       "stars_prev": 0,
-      "velocity": 99.4,
-      "acceleration": 696,
+      "velocity": 28.6,
+      "acceleration": 200,
       "pct_change": 9999,
-      "description": "LibreCode - A Ollama cursor like coding / Reversing Interface",
-      "language": "C#",
-      "readme_summary": "A free, open-source AI-powered code editor built from the ground up with .NET 10 and Avalonia UI. Runs natively on Windows, Linux, and macOS -- no Electron, no web views, just fast native rendering.",
-      "readme_url": "https://github.com/re4/LibreCode/blob/main/README.md"
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "readme_summary": "Prime Agent: A Self-Improving RLM Agent",
+      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md"
     }
   ]
 }
