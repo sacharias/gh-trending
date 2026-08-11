@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:09:27+00:00",
+  "generated_at": "2026-08-11T05:52:48+00:00",
   "window_days": 7,
   "min_stars": 200,
   "min_recent": 5,
@@ -8,11 +8,11 @@
   "fastest_rising": [
     {
       "repo_name": "PrimeIntellect-ai/prime-agent",
-      "total_stars": 11817,
-      "stars_recent": 224,
+      "total_stars": 13332,
+      "stars_recent": 232,
       "stars_prev": 0,
-      "velocity": 32.0,
-      "acceleration": 224,
+      "velocity": 33.1,
+      "acceleration": 232,
       "pct_change": 9999,
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
@@ -23,11 +23,11 @@
   "highest_velocity": [
     {
       "repo_name": "PrimeIntellect-ai/prime-agent",
-      "total_stars": 11817,
-      "stars_recent": 224,
+      "total_stars": 13332,
+      "stars_recent": 232,
       "stars_prev": 0,
-      "velocity": 32.0,
-      "acceleration": 224,
+      "velocity": 33.1,
+      "acceleration": 232,
       "pct_change": 9999,
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
