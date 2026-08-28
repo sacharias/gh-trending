@@ -2,17 +2,29 @@ name: Daily Trending
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '17 7 * * *'
+      timezone: Europe/Stockholm
   push:
     branches: [main]
     paths:
       - 'docs/**'
+      - 'mercury_gh_radar/**'
+      - 'scripts/**'
+      - 'pyproject.toml'
       - '.github/workflows/daily-trending.yml'
   workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
 
 jobs:
   trending:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       contents: write
       pages: write
@@ -34,14 +46,17 @@ jobs:
         run: |
           set -e
           gh-trending --json > /tmp/data.json
-          # Only overwrite committed data.json if the new output is non-empty
-          # and valid JSON with at least one ranking populated.
+          # Do not replace a healthy dashboard with a suspiciously small result
+          # if the upstream event feed is incomplete.
           python3 - <<'EOF'
           import json, sys
           with open('/tmp/data.json') as f:
               d = json.load(f)
-          if not (d.get('fastest_rising') or d.get('highest_velocity')):
-              sys.exit("empty rankings")
+          minimum = min(10, d.get('top', 25))
+          for ranking in ('fastest_rising', 'highest_velocity'):
+              count = len(d.get(ranking, []))
+              if count < minimum:
+                  sys.exit(f"{ranking} has only {count} repos; expected at least {minimum}")
           EOF
           mv /tmp/data.json docs/data.json
 
@@ -63,6 +78,7 @@ jobs:
           path: docs
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v5
 
       - name: Fail job if data generation failed

@@ -47,11 +47,12 @@ Each displayed repository includes:
 The default command:
 
 ```bash
-mercury-gh-radar generate --window 7 --stars 200 --min-recent 5 --top 25
+mercury-gh-radar generate --window 7 --stars 20 --min-recent 5 --top 25
 ```
 
 Useful options:
 
+- `--stars`: minimum WatchEvents across the recent and previous windows (default: 20).
 - `--source-limit`: maximum ClickHouse rows to rank before selecting displayed repos.
 - `--readme-cache-ttl`: README cache TTL in seconds.
 - `--skip-github`: generate from ClickHouse only, without GitHub metadata or README calls.
@@ -59,4 +60,7 @@ Useful options:
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` runs daily, regenerates `docs/data.json`, commits the generated files when they change, and deploys `docs/` to GitHub Pages. It uses the built-in `GITHUB_TOKEN`; no extra repository secret is required.
+`.github/workflows/daily-trending.yml` runs every morning at 07:17 Europe/Stockholm,
+regenerates `docs/data.json`, commits it when it changes, and deploys `docs/` to
+GitHub Pages. It can also be run manually from the Actions tab. The workflow uses
+the built-in `GITHUB_TOKEN`; no extra repository secret is required.

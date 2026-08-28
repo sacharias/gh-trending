@@ -11,6 +11,8 @@ from .github import DEFAULT_CACHE_PATH, fetch_display_enrichment
 from .metrics import apply_enrichment, displayed_repo_names, normalize_rows
 from .render import build_payload, write_data, write_index
 
+DEFAULT_MIN_ACTIVITY = 20
+
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
@@ -25,7 +27,16 @@ def main(argv: list[str] | None = None) -> int:
         help="Command to run (default: generate)",
     )
     parser.add_argument("-w", "--window", type=int, default=7, help="Window size in days.")
-    parser.add_argument("-s", "--stars", type=int, default=200, help="Minimum event stars.")
+    parser.add_argument(
+        "-s",
+        "--stars",
+        type=int,
+        default=DEFAULT_MIN_ACTIVITY,
+        help=(
+            "Minimum WatchEvents across the recent and previous windows "
+            f"(default: {DEFAULT_MIN_ACTIVITY})."
+        ),
+    )
     parser.add_argument("--min-recent", type=int, default=5, help="Minimum stars in recent window.")
     parser.add_argument("-n", "--top", type=int, default=25, help="Repos per ranking.")
     parser.add_argument(
@@ -62,8 +73,17 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    if args.window <= 0 or args.top <= 0 or args.source_limit <= 0:
-        parser.error("--window, --top, and --source-limit must be positive")
+    if (
+        args.window <= 0
+        or args.stars < 0
+        or args.min_recent < 0
+        or args.top <= 0
+        or args.source_limit <= 0
+    ):
+        parser.error(
+            "--window, --top, and --source-limit must be positive; "
+            "--stars and --min-recent cannot be negative"
+        )
 
     print("Querying ClickHouse GitHub Events...", file=sys.stderr)
     query = build_query(args.window, args.stars, args.min_recent, args.source_limit)
